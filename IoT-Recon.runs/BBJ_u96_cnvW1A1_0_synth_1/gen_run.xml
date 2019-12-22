@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="BBJ_u96_cnvW1A1_0_synth_1" LaunchPart="xczu3eg-sbva484-1-i" LaunchTime="1576994196">
+  <File Type="PA-TCL" Name="BBJ_u96_cnvW1A1_0.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="BBJ_u96_cnvW1A1_0_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="BBJ_u96_cnvW1A1_0_reports.tcl"/>
+  <File Type="RDS-RDS" Name="BBJ_u96_cnvW1A1_0.vds"/>
+  <File Type="RDS-UTIL" Name="BBJ_u96_cnvW1A1_0_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="BBJ_u96_cnvW1A1_0_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="BBJ_u96_cnvW1A1_0.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="BBJ_u96_cnvW1A1_0_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="BBJ_u96_cnvW1A1_0_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/BBJ_u96_cnvW1A1_0">
+    <File Path="$PSRCDIR/sources_1/ip/BBJ_u96_cnvW1A1_0/BBJ_u96_cnvW1A1_0.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="BBJ_u96_cnvW1A1_0"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/BBJ_u96_cnvW1A1_0">
+    <File Path="$PSRCDIR/sources_1/ip/BBJ_u96_cnvW1A1_0/BBJ_u96_cnvW1A1_0.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="BBJ_u96_cnvW1A1_0"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Flow_PerfOptimized" Flow="Vivado Synthesis 2018">
+      <Desc>BNN default</Desc>
+    </StratHandle>
+    <Step Id="synth_design">
+      <Option Id="ReTiming">1</Option>
+      <Option Id="FsmExtraction">1</Option>
+      <Option Id="NoCombineLuts">1</Option>
+      <Option Id="Directive">3</Option>
+      <Option Id="ShregMinSize">5</Option>
+      <Option Id="ResourceSharing">2</Option>
+      <Option Id="RepFanoutThreshold">400</Option>
+      <Option Id="KeepEquivalentRegisters">1</Option>
+    </Step>
+  </Strategy>
+</GenRun>
