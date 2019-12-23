@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="cnvW2A2_wrapper_synth_1" LaunchPart="xczu3eg-sbva484-1-i" LaunchTime="1576994195">
+  <File Type="PA-TCL" Name="cnvW2A2_wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="cnvW2A2_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="cnvW2A2_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="cnvW2A2_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="cnvW2A2_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="cnvW2A2_wrapper.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/cnvW2A2_wrapper">
+    <File Path="$PSRCDIR/cnvW2A2_wrapper/imports/bnn_imports/cnvW2A2_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Adam/Documents/Vivado_Projects/bnn_imports/cnvW2A2_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1574002859"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="cnvW2A2_wrapper"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/cnvW2A2_wrapper">
+    <File Path="$PSRCDIR/cnvW2A2_wrapper/imports/bnn_imports/cnvW2A2_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Adam/Documents/Vivado_Projects/bnn_imports/cnvW2A2_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1574002859"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="cnvW2A2_wrapper"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Flow_PerfOptimized" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design">
+      <Option Id="ResourceSharing">2</Option>
+      <Option Id="Directive">3</Option>
+      <Option Id="ReTiming">1</Option>
+      <Option Id="FsmExtraction">1</Option>
+      <Option Id="KeepEquivalentRegisters">1</Option>
+      <Option Id="RepFanoutThreshold">400</Option>
+      <Option Id="ShregMinSize">5</Option>
+      <Option Id="NoCombineLuts">1</Option>
+    </Step>
+  </Strategy>
+</GenRun>
