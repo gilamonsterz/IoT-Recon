@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xczu3eg-sbva484-1-i" LaunchTime="1576972590">
+  <File Type="PA-TCL" Name="super_wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="super_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="super_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="super_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="super_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="super_wrapper.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/procsys/procsys.bd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Adam/Documents/Vivado_Projects/BNN-Vivado-Outputs/cnvW1A1-ultra96/cnvW1A1-ultra96.srcs/sources_1/bd/procsys/procsys.bd"/>
+        <Attr Name="ImportTime" Val="1576673635"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/wrappers/lfcW1A2_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Adam/Documents/Vivado_Projects/wrappers/lfcW1A2_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1576969354"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/procsys/hdl/procsys_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Adam/Documents/Vivado_Projects/BNN-Vivado-Outputs/cnvW1A1-ultra96/cnvW1A1-ultra96.srcs/sources_1/bd/procsys/hdl/procsys_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1576673666"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/wrappers/super_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Adam/Documents/Vivado_Projects/BNN-Vivado-Outputs/wrappers/super_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1573688140"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/wrappers/lfcW1A1_wrapper.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/Adam/Documents/Vivado_Projects/wrappers/lfcW1A1_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1576969317"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/wrappers/cnvW2A2_wrapper.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/Adam/Documents/Vivado_Projects/BNN-Vivado-Outputs/wrappers/cnvW2A2_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1574002859"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/wrappers/cnvW1A2_wrapper.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/Adam/Documents/Vivado_Projects/BNN-Vivado-Outputs/wrappers/cnvW1A2_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1573686673"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/wrappers/cnvW1A1_wrapper.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/Adam/Documents/Vivado_Projects/BNN-Vivado-Outputs/wrappers/cnvW1A1_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1574002876"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="super_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/BNN-Vivado-Outputs/ultra96.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Adam/Documents/Vivado_Projects/BNN-Vivado-Outputs/ultra96.xdc"/>
+        <Attr Name="ImportTime" Val="1573102220"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Flow_PerfOptimized" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design">
+      <Option Id="ReTiming">1</Option>
+      <Option Id="KeepEquivalentRegisters">1</Option>
+      <Option Id="NoCombineLuts">1</Option>
+      <Option Id="ResourceSharing">2</Option>
+      <Option Id="FsmExtraction">1</Option>
+      <Option Id="Directive">3</Option>
+      <Option Id="ShregMinSize">5</Option>
+      <Option Id="RepFanoutThreshold">400</Option>
+    </Step>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="procsys_zynq_ultra_ps_e_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="procsys_axi_smc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="lfcw1a2_BBox_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="procsys_rst_ps8_0_299M_0"/>
+</GenRun>
