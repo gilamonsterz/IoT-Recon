@@ -1,0 +1,4 @@
+NumberHits:0
+Timestamp: Sat Dec 21 22:11:01 UTC 2019
+VLNV: xilinx.com:hls:BBJ_u96_cnvW2A2:1.0
+SynthRuntime: 1076
