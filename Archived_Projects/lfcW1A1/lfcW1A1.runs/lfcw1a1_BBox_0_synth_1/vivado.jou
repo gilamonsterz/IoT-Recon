@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Dec 24 03:22:57 2019
+# Process ID: 5168
+# Current directory: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/lfcW1A1/lfcW1A1.runs/lfcw1a1_BBox_0_synth_1
+# Command line: vivado.exe -log lfcw1a1_BBox_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lfcw1a1_BBox_0.tcl
+# Log file: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/lfcW1A1/lfcW1A1.runs/lfcw1a1_BBox_0_synth_1/lfcw1a1_BBox_0.vds
+# Journal file: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/lfcW1A1/lfcW1A1.runs/lfcw1a1_BBox_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source lfcw1a1_BBox_0.tcl -notrace
