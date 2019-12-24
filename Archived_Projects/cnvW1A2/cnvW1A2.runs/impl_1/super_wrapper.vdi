@@ -1,0 +1,1243 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Dec 24 00:41:55 2019
+# Process ID: 18248
+# Current directory: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/impl_1
+# Command line: vivado.exe -log super_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source super_wrapper.tcl -notrace
+# Log file: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/impl_1/super_wrapper.vdi
+# Journal file: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source super_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW2A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A2-ultra96'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+add_files: Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 892.332 ; gain = 586.426
+Command: link_design -top super_wrapper -part xczu3eg-sbva484-1-i
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/ip/BBJ_u96_cnvW1A2_0/BBJ_u96_cnvW1A2_0.dcp' for cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_axi_smc_0/procsys_axi_smc_0.dcp' for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_rst_ps8_0_299M_0/procsys_rst_ps8_0_299M_0.dcp' for cell 'PROCSYS_WRAPPER/procsys_i/rst_ps8_0_299M'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_zynq_ultra_ps_e_0_0/procsys_zynq_ultra_ps_e_0_0.dcp' for cell 'PROCSYS_WRAPPER/procsys_i/zynq_ultra_ps_e_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_auto_ds_0/procsys_auto_ds_0.dcp' for cell 'PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_auto_pc_0/procsys_auto_pc_0.dcp' for cell 'PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Netlist 29-17] Analyzing 4717 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-i
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_zynq_ultra_ps_e_0_0/procsys_zynq_ultra_ps_e_0_0.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/zynq_ultra_ps_e_0/inst'
+Finished Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_zynq_ultra_ps_e_0_0/procsys_zynq_ultra_ps_e_0_0.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/zynq_ultra_ps_e_0/inst'
+Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_rst_ps8_0_299M_0/procsys_rst_ps8_0_299M_0_board.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/rst_ps8_0_299M/U0'
+Finished Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_rst_ps8_0_299M_0/procsys_rst_ps8_0_299M_0_board.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/rst_ps8_0_299M/U0'
+Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_rst_ps8_0_299M_0/procsys_rst_ps8_0_299M_0.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/rst_ps8_0_299M/U0'
+Finished Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_rst_ps8_0_299M_0/procsys_rst_ps8_0_299M_0.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/rst_ps8_0_299M/U0'
+Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_axi_smc_0/bd_0/ip/ip_1/bd_513a_psr_aclk_0_board.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_axi_smc_0/bd_0/ip/ip_1/bd_513a_psr_aclk_0_board.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_axi_smc_0/bd_0/ip/ip_1/bd_513a_psr_aclk_0.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_axi_smc_0/bd_0/ip/ip_1/bd_513a_psr_aclk_0.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/constrs_1/imports/imports/ultra96.xdc]
+Finished Parsing XDC File [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/constrs_1/imports/imports/ultra96.xdc]
+Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_auto_ds_0/procsys_auto_ds_0_clocks.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_auto_ds_0/procsys_auto_ds_0_clocks.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl:2]
+all_registers: Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 1817.758 ; gain = 214.852
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3400 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD_DATA, DSP_PREADD): 26 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 2 instances
+  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 6 instances
+  RAM16X1S => RAM32X1S (RAMS32): 3248 instances
+  RAM32M16 => RAM32M16 (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 70 instances
+  RAM32X1S => RAM32X1S (RAMS32): 48 instances
+
+21 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 1817.758 ; gain = 925.426
+Command: opt_design -directive ExploreWithRemap
+INFO: [Vivado_Tcl 4-136] Directive used for opt_design is: ExploreWithRemap
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1817.758 ; gain = 0.000
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 15 inverter(s) to 4248 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 133f17e7d
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:17 . Memory (MB): peak = 1844.434 ; gain = 26.676
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 2 load pin(s).
+Phase 2 Constant propagation | Checksum: 144defcb0
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 1844.434 ; gain = 26.676
+INFO: [Opt 31-389] Phase Constant propagation created 20 cells and removed 490 cells
+
+Phase 3 BUFG optimization
+Phase 3 BUFG optimization | Checksum: 144defcb0
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:23 . Memory (MB): peak = 1844.434 ; gain = 26.676
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 4 Shift Register Optimization
+Phase 4 Shift Register Optimization | Checksum: 1bed06d4f
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:28 . Memory (MB): peak = 1844.434 ; gain = 26.676
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 5 Sweep
+Phase 5 Sweep | Checksum: 22490a7a9
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:33 . Memory (MB): peak = 1844.434 ; gain = 26.676
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 1321 cells
+
+Phase 6 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 6 Constant propagation | Checksum: 22490a7a9
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:35 . Memory (MB): peak = 1844.434 ; gain = 26.676
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 7 Sweep
+Phase 7 Sweep | Checksum: 217bde9ce
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:37 . Memory (MB): peak = 1844.434 ; gain = 26.676
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 8 Remap
+Phase 8 Remap | Checksum: 1f3e22cf7
+
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:55 . Memory (MB): peak = 1844.434 ; gain = 26.676
+INFO: [Opt 31-389] Phase Remap created 9182 cells and removed 9188 cells
+
+Phase 9 Post Processing Netlist
+Phase 9 Post Processing Netlist | Checksum: 17c18cfc2
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:57 . Memory (MB): peak = 1844.434 ; gain = 26.676
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.303 . Memory (MB): peak = 1844.434 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1cb3a675b
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:01:03 . Memory (MB): peak = 1844.434 ; gain = 26.676
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 1cb3a675b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1844.434 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+41 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:01:07 ; elapsed = 00:01:06 . Memory (MB): peak = 1844.434 ; gain = 26.676
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.208 . Memory (MB): peak = 1844.434 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/impl_1/super_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 1844.434 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file super_wrapper_drc_opted.rpt -pb super_wrapper_drc_opted.pb -rpx super_wrapper_drc_opted.rpx
+Command: report_drc -file super_wrapper_drc_opted.rpt -pb super_wrapper_drc_opted.pb -rpx super_wrapper_drc_opted.rpx
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/impl_1/super_wrapper_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 2647.852 ; gain = 803.418
+Command: place_design -directive ExtraTimingOpt
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 46-5] The placer was invoked with the 'ExtraTimingOpt' directive.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.178 . Memory (MB): peak = 2843.383 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 105a26ad5
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.237 . Memory (MB): peak = 2843.383 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.184 . Memory (MB): peak = 2843.383 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 13e25301c
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:01:13 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 23b2bd814
+
+Time (s): cpu = 00:01:44 ; elapsed = 00:01:39 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 23b2bd814
+
+Time (s): cpu = 00:01:44 ; elapsed = 00:01:39 . Memory (MB): peak = 3788.191 ; gain = 944.809
+Phase 1 Placer Initialization | Checksum: 23b2bd814
+
+Time (s): cpu = 00:01:45 ; elapsed = 00:01:40 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 1f2906494
+
+Time (s): cpu = 00:01:53 ; elapsed = 00:01:46 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 2.2 Physical Synthesis In Placer
+INFO: [Physopt 32-76] Pass 1. Identified 1 candidate net for fanout optimization.
+INFO: [Physopt 32-81] Processed net PROCSYS_WRAPPER/procsys_i/rst_ps8_0_299M/U0/peripheral_aresetn[0]. Replicated 28 times.
+INFO: [Physopt 32-232] Optimized 1 net. Created 28 new instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 1 net or cell. Created 28 new cells, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.687 . Memory (MB): peak = 3788.191 ; gain = 0.000
+INFO: [Physopt 32-64] No nets found for fanout-optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-117] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_0_0_0[0] could not be optimized because driver BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_0_0_i_17__0 could not be replicated
+INFO: [Physopt 32-117] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/weights4_m_weights_V_ce0 could not be optimized because driver BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_bram_1_i_2 could not be replicated
+INFO: [Physopt 32-117] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_0_28[0] could not be optimized because driver BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_0_23_i_17 could not be replicated
+INFO: [Physopt 32-117] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_0_28_0 could not be optimized because driver BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_0_23_i_1 could not be replicated
+INFO: [Physopt 32-117] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/weights5_m_weights_V_ce0 could not be optimized because driver BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_0_0_i_1__1 could not be replicated
+INFO: [Physopt 32-117] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_bram_2_0[0] could not be optimized because driver BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_bram_2_i_1 could not be replicated
+INFO: [Physopt 32-117] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/weights7_m_weights_V_ce0 could not be optimized because driver BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_0_0_i_1 could not be replicated
+INFO: [Physopt 32-117] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_bram_2[0] could not be optimized because driver BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_bram_2_i_2 could not be replicated
+INFO: [Physopt 32-117] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/weights6_m_weights_V_ce0 could not be optimized because driver BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_0_0_i_1__0 could not be replicated
+INFO: [Physopt 32-117] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_0_28_1[1] could not be optimized because driver BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_0_23_i_15 could not be replicated
+INFO: [Physopt 32-117] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_0_0_3[0] could not be optimized because driver BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_0_0_i_16__1 could not be replicated
+INFO: [Physopt 32-117] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_0_0_3[3] could not be optimized because driver BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_0_0_i_13__1 could not be replicated
+INFO: [Physopt 32-117] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_0_0_3[1] could not be optimized because driver BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_0_0_i_15__1 could not be replicated
+INFO: [Physopt 32-117] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_0_28_1[5] could not be optimized because driver BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_0_23_i_11 could not be replicated
+INFO: [Physopt 32-68] No nets found for critical-cell optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.176 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+|  Optimization       |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------
+|  Very High Fanout   |           28  |              0  |                     1  |           0  |           1  |  00:00:02  |
+|  Fanout             |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Critical Cell      |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total              |           28  |              0  |                     1  |           0  |           3  |  00:00:02  |
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.2 Physical Synthesis In Placer | Checksum: 1d938afc7
+
+Time (s): cpu = 00:03:57 ; elapsed = 00:03:20 . Memory (MB): peak = 3788.191 ; gain = 944.809
+Phase 2 Global Placement | Checksum: 1f495eafb
+
+Time (s): cpu = 00:04:04 ; elapsed = 00:03:26 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1f495eafb
+
+Time (s): cpu = 00:04:04 ; elapsed = 00:03:27 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 12684b23f
+
+Time (s): cpu = 00:04:20 ; elapsed = 00:03:41 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1115e9598
+
+Time (s): cpu = 00:04:22 ; elapsed = 00:03:43 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1e0f2170d
+
+Time (s): cpu = 00:04:22 ; elapsed = 00:03:43 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 3.5 IO Cut Optimizer
+Phase 3.5 IO Cut Optimizer | Checksum: 128b1abeb
+
+Time (s): cpu = 00:04:24 ; elapsed = 00:03:45 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 3.6 Timing Path Optimizer
+Phase 3.6 Timing Path Optimizer | Checksum: 128b1abeb
+
+Time (s): cpu = 00:04:24 ; elapsed = 00:03:45 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 3.7 Fast Optimization
+Phase 3.7 Fast Optimization | Checksum: 17eadf8cd
+
+Time (s): cpu = 00:04:27 ; elapsed = 00:03:48 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 3.8 Small Shape Clustering
+Phase 3.8 Small Shape Clustering | Checksum: 1493eb2cc
+
+Time (s): cpu = 00:04:39 ; elapsed = 00:04:00 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 3.9 DP Optimization
+Phase 3.9 DP Optimization | Checksum: 182048a98
+
+Time (s): cpu = 00:05:36 ; elapsed = 00:04:38 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 3.10 Flow Legalize Slice Clusters
+Phase 3.10 Flow Legalize Slice Clusters | Checksum: 1010f4d68
+
+Time (s): cpu = 00:05:37 ; elapsed = 00:04:40 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 3.11 Slice Area Swap
+Phase 3.11 Slice Area Swap | Checksum: 1a54f7a59
+
+Time (s): cpu = 00:05:47 ; elapsed = 00:04:51 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 3.12 Commit Slice Clusters
+Phase 3.12 Commit Slice Clusters | Checksum: 151dc8a50
+
+Time (s): cpu = 00:06:25 ; elapsed = 00:05:12 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 3.13 Re-assign LUT pins
+Phase 3.13 Re-assign LUT pins | Checksum: f8ede399
+
+Time (s): cpu = 00:06:33 ; elapsed = 00:05:24 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 3.14 Pipeline Register Optimization
+Phase 3.14 Pipeline Register Optimization | Checksum: 21353b4a2
+
+Time (s): cpu = 00:06:34 ; elapsed = 00:05:24 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 3.15 Fast Optimization
+Phase 3.15 Fast Optimization | Checksum: 22d3463f3
+
+Time (s): cpu = 00:08:00 ; elapsed = 00:06:22 . Memory (MB): peak = 3788.191 ; gain = 944.809
+Phase 3 Detail Placement | Checksum: 22d3463f3
+
+Time (s): cpu = 00:08:01 ; elapsed = 00:06:22 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 16110d0d8
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Place 46-34] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_U0/E[0], BUFG insertion was skipped due to possible timing degradation.
+INFO: [Place 46-31] BUFG insertion identified 1 candidate nets, 0 success, 0 skipped for placement/routing, 1 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: 16110d0d8
+
+Time (s): cpu = 00:08:55 ; elapsed = 00:07:00 . Memory (MB): peak = 3788.191 ; gain = 944.809
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-0.148. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 183cb464f
+
+Time (s): cpu = 00:10:59 ; elapsed = 00:09:24 . Memory (MB): peak = 3788.191 ; gain = 944.809
+Phase 4.1 Post Commit Optimization | Checksum: 183cb464f
+
+Time (s): cpu = 00:11:00 ; elapsed = 00:09:25 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 183cb464f
+
+Time (s): cpu = 00:11:13 ; elapsed = 00:09:36 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 248b8a6da
+
+Time (s): cpu = 00:11:17 ; elapsed = 00:09:40 . Memory (MB): peak = 3788.191 ; gain = 944.809
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 1fe4c3e10
+
+Time (s): cpu = 00:11:17 ; elapsed = 00:09:40 . Memory (MB): peak = 3788.191 ; gain = 944.809
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1fe4c3e10
+
+Time (s): cpu = 00:11:18 ; elapsed = 00:09:41 . Memory (MB): peak = 3788.191 ; gain = 944.809
+Ending Placer Task | Checksum: 17c72c2bd
+
+Time (s): cpu = 00:11:18 ; elapsed = 00:09:41 . Memory (MB): peak = 3788.191 ; gain = 944.809
+INFO: [Common 17-83] Releasing license: Implementation
+87 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:11:32 ; elapsed = 00:09:52 . Memory (MB): peak = 3788.191 ; gain = 1140.340
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 3788.191 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/impl_1/super_wrapper_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:26 ; elapsed = 00:00:16 . Memory (MB): peak = 3788.191 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_io -file super_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.087 . Memory (MB): peak = 3788.191 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file super_wrapper_utilization_placed.rpt -pb super_wrapper_utilization_placed.pb
+report_utilization: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 3788.191 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 3788.191 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file super_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.604 . Memory (MB): peak = 3788.191 ; gain = 0.000
+Command: phys_opt_design -directive AggressiveExplore
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Vivado_Tcl 4-137] Directive used for phys_opt_design is: AggressiveExplore
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.178 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.144 | TNS=-9.469 |
+Phase 1 Physical Synthesis Initialization | Checksum: cca1d29c
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:27 . Memory (MB): peak = 3788.191 ; gain = 0.000
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.144 | TNS=-9.469 |
+
+Phase 2 Fanout Optimization
+INFO: [Physopt 32-76] Pass 1. Identified 50 candidate nets for fanout optimization.
+INFO: [Physopt 32-572] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106[0]_i_1_n_12 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-572] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102[0]_i_2_n_12 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-572] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102[0]_i_1_n_12 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-572] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110[0]_i_1_n_12 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-572] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/sel was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-572] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118[0]_i_2_n_12 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-572] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122[0]_i_1_n_12 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-572] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110[0]_i_2_n_12 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-601] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/counter_internal_blo_fu_134[0]_i_1_n_12. Net driver BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/counter_internal_blo_fu_134[0]_i_1 was replaced.
+INFO: [Physopt 32-572] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/clear was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-572] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118[0]_i_1_n_12 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-572] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/weights3_m_weights_V_ce0 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-232] Optimized 1 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 1 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.144 | TNS=-9.442 |
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.175 . Memory (MB): peak = 3788.191 ; gain = 0.000
+Phase 2 Fanout Optimization | Checksum: c0a57d04
+
+Time (s): cpu = 00:01:01 ; elapsed = 00:00:33 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 3 Placement Based Optimization
+INFO: [Physopt 32-660] Identified 250 candidate nets for placement-based optimization.
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106[0]_i_1_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106[0]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118[0]_i_4_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118[0]_i_4
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118[0]_i_7_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118[0]_i_7_LOPT_REMAP_8
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[0].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[0]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[1]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[1].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[1]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[2].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[2]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[3].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[3]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/xlnx_opt_k_x_4_fu_118[0]_i_7_n_12_6.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118[0]_i_7_LOPT_REMAP_1
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/xlnx_opt_k_x_4_fu_118[0]_i_7_n_12_7.  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118[0]_i_7_LOPT_REMAP
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[4].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[4]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[5].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[5]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[6].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[6]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[7].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[7]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/xlnx_opt_k_x_4_fu_118[0]_i_7_n_12_2.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118[0]_i_7_LOPT_REMAP_5
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/xlnx_opt_k_x_4_fu_118[0]_i_7_n_12_3.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118[0]_i_7_LOPT_REMAP_4
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[24].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[24]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[25].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[25]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[26].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[26]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[27].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[27]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[10].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[10]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[11].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[11]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[8].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[8]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[9].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[9]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[28].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[28]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[29].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[29]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[30].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[30]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[31].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[31]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102[0]_i_2_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102[0]_i_2
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[12].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[12]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[13].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[13]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[14].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[14]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[15].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[15]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[12].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[12]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[14].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[14]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[13].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[13]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[15].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[15]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[2].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[2]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[3].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[3]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[20].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[20]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[21].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[21]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[22].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[22]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[23].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[23]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110[0]_i_4_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110[0]_i_4_LOPT_REMAP_8
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[5].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[5]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/xlnx_opt_k_y_4_fu_110[0]_i_4_n_12_4.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110[0]_i_4_LOPT_REMAP_3
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/xlnx_opt_k_y_4_fu_110[0]_i_4_n_12_5.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110[0]_i_4_LOPT_REMAP_2
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/xlnx_opt_k_y_4_fu_110[0]_i_4_n_12_2.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110[0]_i_4_LOPT_REMAP_5
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/xlnx_opt_k_y_4_fu_110[0]_i_4_n_12_3.  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110[0]_i_4_LOPT_REMAP_4
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[4].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[4]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[5].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[5]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[6].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[6]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/xlnx_opt_k_y_4_fu_110[0]_i_4_n_12_6.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110[0]_i_4_LOPT_REMAP_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/xlnx_opt_k_y_4_fu_110[0]_i_4_n_12_7.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110[0]_i_4_LOPT_REMAP
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[7].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[7]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[28].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[28]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[29].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[29]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[30].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[30]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[31].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[31]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102[0]_i_1_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102[0]_i_1
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[24].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[24]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[25].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[25]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[26].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[26]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[27].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[27]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[4].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[4]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[16].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[16]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[17].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[17]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[18].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[18]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[19].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[19]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[20].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[20]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[21].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[21]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[22].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[22]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[23].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106_reg[23]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[10].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[10]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[11].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[11]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[8].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[8]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[9].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[9]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[6].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[6]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[5].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[5]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[13].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[13]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[0].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[0]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[16].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[16]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[17].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[17]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[18].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[18]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[19].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[19]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[9].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[9]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[10].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[10]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/xlnx_opt_k_y_4_fu_110[0]_i_4_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110[0]_i_4_LOPT_REMAP_7
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/xlnx_opt_k_y_4_fu_110[0]_i_4_n_12_1.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110[0]_i_4_LOPT_REMAP_6
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[12].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[12]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[0].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[0]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[11].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[11]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[1]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[2].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[2]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[3].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_y_1_i_fu_102_reg[3]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[8].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[8]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110[0]_i_1_n_12.  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110[0]_i_1
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[24].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[24]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[25].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[25]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[26].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[26]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[27].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[27]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/sel.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/ofm_x_4_fu_106[0]_i_2
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118[0]_i_2_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118[0]_i_2
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122[0]_i_1_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122[0]_i_1
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[24].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[24]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[25].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[25]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[26].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[26]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[27].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[27]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[28].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[28]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[29].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[29]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[30].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[30]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[31].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[31]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[7].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[7]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[28].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[28]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[29].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[29]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[30].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[30]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[31].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[31]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[16].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[16]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[17].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[17]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[18].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[18]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[19].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[19]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[0].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[0]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[1]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[2].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[2]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[3].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[3]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110[0]_i_2_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110[0]_i_2
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[20].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[20]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[21].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[21]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[22].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[22]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[23].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[23]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[4].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[4]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[6].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[6]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[7].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[7]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[16].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[16]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[17].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[17]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[18].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[18]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[19].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[19]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[20].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[20]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[21].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[21]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[22].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[22]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[23].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/count_simd_4_fu_122_reg[23]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[17].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[17]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[13].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[13]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[14].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[14]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[16].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[16]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[18].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[18]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/clear.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114[0]_i_1
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[24].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[24]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[25].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[25]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[26].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[26]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[27].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[27]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/counter_internal_blo_fu_134[0]_i_1_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/counter_internal_blo_fu_134[0]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/read_block_5_fu_98[0]_i_2_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/read_block_5_fu_98[0]_i_2_LOPT_REMAP_8
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/counter_internal_blo_fu_134[0]_i_4_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/counter_internal_blo_fu_134[0]_i_4
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/current_line_5_fu_130_reg__0[8].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/current_line_5_fu_130_reg[8]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[29].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[29]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/xlnx_opt_read_block_5_fu_98[0]_i_2_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/read_block_5_fu_98[0]_i_2_LOPT_REMAP_7
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/xlnx_opt_read_block_5_fu_98[0]_i_2_n_12_1.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/read_block_5_fu_98[0]_i_2_LOPT_REMAP_6
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/counter_internal_blo_fu_134_reg[8].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/counter_internal_blo_fu_134_reg[8]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/counter_internal_blo_fu_134_reg[10].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/counter_internal_blo_fu_134_reg[10]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/counter_internal_blo_fu_134_reg[11].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/counter_internal_blo_fu_134_reg[11]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/counter_internal_blo_fu_134_reg[9].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/counter_internal_blo_fu_134_reg[9]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[28].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[28]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[30].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[30]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[31].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[31]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/counter_internal_blo_fu_134_reg[12].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/counter_internal_blo_fu_134_reg[12]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/counter_internal_blo_fu_134_reg[13].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/counter_internal_blo_fu_134_reg[13]
+INFO: [Common 17-14] Message 'Physopt 32-663' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118[0]_i_1_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118[0]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/weights3_m_weights_V_ce0.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/ram_reg_i_1__68
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_8_U0/tile_assign_fu_412_reg[0]_0.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_8_U0/ap_phi_reg_pp0_iter2_act_m_val_V_reg_1222[63]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[23].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[23]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[5].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[5]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[6].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[6]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[20].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[20]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[21].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[21]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[22].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[22]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[7].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[7]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg_n_12_[4].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/inp_4_fu_114_reg[4]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[20].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[20]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[19].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[19]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/p_2_in.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/current_line_5_fu_130[0]_i_6_LOPT_REMAP_8
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/read_block_5_fu_98[10]_i_1_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/read_block_5_fu_98[10]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/xlnx_opt_p_2_in_6.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/current_line_5_fu_130[0]_i_6_LOPT_REMAP_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/xlnx_opt_p_2_in_7.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/current_line_5_fu_130[0]_i_6_LOPT_REMAP
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/read_block_5_fu_98[10].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/read_block_5_fu_98_reg[10]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/read_block_5_fu_98[28]_i_1_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/read_block_5_fu_98[28]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/read_block_5_fu_98[28].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/read_block_5_fu_98_reg[28]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[10].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[10]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[11].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[11]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[8].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[8]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[9].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[9]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[15].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118_reg[15]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/xlnx_opt_k_x_4_fu_118[0]_i_7_n_12_4.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118[0]_i_7_LOPT_REMAP_3
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[12].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[12]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[14].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[14]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg__0[15].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_y_4_fu_110_reg[15]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_6_U0/accu_V_0_i_fu_336[15]_i_23_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_6_U0/accu_V_0_i_fu_336[15]_i_23
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_6_U0/i___41_i_12_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_6_U0/i___41_i_12
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_6_U0/tmp118_fu_3235_p2[2].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_6_U0/i___41_i_13
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_6_U0/i___41_i_3_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_6_U0/i___41_i_3
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_6_U0/accu_0_V_reg_4119[15].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_6_U0/accu_0_V_reg_4119_reg[15]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_6_U0/accu_0_V_reg_4119[13].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_6_U0/accu_0_V_reg_4119_reg[13]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_6_U0/accu_V_0_i_fu_336[15].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_6_U0/accu_V_0_i_fu_336_reg[15]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_3_U0/weights7_m_weights_V_address0[0].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_3_U0/tile_assign_fu_230_reg[0]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_3_U0/weights7_m_weights_V_address0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_3_U0/tile_assign_fu_230_reg[1]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_3_U0/weights7_m_weights_V_address0[2].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_3_U0/tile_assign_fu_230_reg[2]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_3_U0/weights7_m_weights_V_address0[3].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_3_U0/tile_assign_fu_230_reg[3]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_6_U0/accu_V_0_i_fu_336[13].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_6_U0/accu_V_0_i_fu_336_reg[13]
+INFO: [Physopt 32-661] Optimized 142 nets.  Re-placed 142 instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 142 nets or cells. Created 0 new cell, deleted 0 existing cell and moved 142 existing cells
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.088 | TNS=-2.571 |
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.175 . Memory (MB): peak = 3788.191 ; gain = 0.000
+Phase 3 Placement Based Optimization | Checksum: 10bc59ed9
+
+Time (s): cpu = 00:01:38 ; elapsed = 00:01:02 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 4 MultiInst Placement Optimization
+INFO: [Physopt 32-660] Identified 100 candidate nets for placement-based optimization.
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118[0]_i_4_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118[0]_i_4/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118[0]_i_7_n_12.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118[0]_i_7_LOPT_REMAP_8/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/xlnx_opt_k_x_4_fu_118[0]_i_7_n_12_2.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118[0]_i_7_LOPT_REMAP_5/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/xlnx_opt_k_x_4_fu_118[0]_i_7_n_12_6.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/ConvolutionInputGene_2_U0/k_x_4_fu_118[0]_i_7_LOPT_REMAP_1/O
+INFO: [Physopt 32-661] Optimized 2 nets.  Re-placed 4 instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 2 nets or cells. Created 0 new cell, deleted 0 existing cell and moved 4 existing cells
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.003 | TNS=0.000 |
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.174 . Memory (MB): peak = 3788.191 ; gain = 0.000
+Phase 4 MultiInst Placement Optimization | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:45 ; elapsed = 00:01:08 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 5 Rewire
+INFO: [Physopt 32-670] No setup violation found.  Rewire was not performed.
+Phase 5 Rewire | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:45 ; elapsed = 00:01:08 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 6 Critical Cell Optimization
+INFO: [Physopt 32-670] No setup violation found.  Critical Cell Optimization was not performed.
+Phase 6 Critical Cell Optimization | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:45 ; elapsed = 00:01:08 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 7 Fanout Optimization
+INFO: [Physopt 32-670] No setup violation found.  Fanout Optimization was not performed.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.182 . Memory (MB): peak = 3788.191 ; gain = 0.000
+Phase 7 Fanout Optimization | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:45 ; elapsed = 00:01:08 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 8 Placement Based Optimization
+INFO: [Physopt 32-670] No setup violation found.  Placement Based Optimization was not performed.
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.195 . Memory (MB): peak = 3788.191 ; gain = 0.000
+Phase 8 Placement Based Optimization | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:08 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 9 MultiInst Placement Optimization
+INFO: [Physopt 32-670] No setup violation found.  MultiInst Placement Optimization was not performed.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.176 . Memory (MB): peak = 3788.191 ; gain = 0.000
+Phase 9 MultiInst Placement Optimization | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:08 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 10 Rewire
+INFO: [Physopt 32-670] No setup violation found.  Rewire was not performed.
+Phase 10 Rewire | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:08 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 11 Critical Cell Optimization
+INFO: [Physopt 32-670] No setup violation found.  Critical Cell Optimization was not performed.
+Phase 11 Critical Cell Optimization | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:08 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 12 Slr Crossing Optimization
+Phase 12 Slr Crossing Optimization | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:08 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 13 Fanout Optimization
+INFO: [Physopt 32-670] No setup violation found.  Fanout Optimization was not performed.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.171 . Memory (MB): peak = 3788.191 ; gain = 0.000
+Phase 13 Fanout Optimization | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:08 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 14 Placement Based Optimization
+INFO: [Physopt 32-670] No setup violation found.  Placement Based Optimization was not performed.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.175 . Memory (MB): peak = 3788.191 ; gain = 0.000
+Phase 14 Placement Based Optimization | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:09 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 15 MultiInst Placement Optimization
+INFO: [Physopt 32-670] No setup violation found.  MultiInst Placement Optimization was not performed.
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.177 . Memory (MB): peak = 3788.191 ; gain = 0.000
+Phase 15 MultiInst Placement Optimization | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:09 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 16 Rewire
+INFO: [Physopt 32-670] No setup violation found.  Rewire was not performed.
+Phase 16 Rewire | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:09 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 17 Critical Cell Optimization
+INFO: [Physopt 32-670] No setup violation found.  Critical Cell Optimization was not performed.
+Phase 17 Critical Cell Optimization | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:09 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 18 DSP Register Optimization
+INFO: [Physopt 32-670] No setup violation found.  DSP Register Optimization was not performed.
+Phase 18 DSP Register Optimization | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:09 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 19 BRAM Register Optimization
+INFO: [Physopt 32-670] No setup violation found.  BRAM Register Optimization was not performed.
+Phase 19 BRAM Register Optimization | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:09 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 20 URAM Register Optimization
+INFO: [Physopt 32-670] No setup violation found.  URAM Register Optimization was not performed.
+Phase 20 URAM Register Optimization | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:09 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 21 Shift Register Optimization
+INFO: [Physopt 32-670] No setup violation found.  Shift Register Optimization was not performed.
+Phase 21 Shift Register Optimization | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:09 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 22 DSP Register Optimization
+INFO: [Physopt 32-670] No setup violation found.  DSP Register Optimization was not performed.
+Phase 22 DSP Register Optimization | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:09 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 23 BRAM Register Optimization
+INFO: [Physopt 32-670] No setup violation found.  BRAM Register Optimization was not performed.
+Phase 23 BRAM Register Optimization | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:09 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 24 URAM Register Optimization
+INFO: [Physopt 32-670] No setup violation found.  URAM Register Optimization was not performed.
+Phase 24 URAM Register Optimization | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:09 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 25 Shift Register Optimization
+INFO: [Physopt 32-670] No setup violation found.  Shift Register Optimization was not performed.
+Phase 25 Shift Register Optimization | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:09 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 26 Critical Pin Optimization
+INFO: [Physopt 32-670] No setup violation found.  Critical Pin Optimization was not performed.
+Phase 26 Critical Pin Optimization | Checksum: e4a309f9
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:09 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 27 Very High Fanout Optimization
+INFO: [Physopt 32-76] Pass 1. Identified 53 candidate nets for fanout optimization.
+INFO: [Physopt 32-81] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_U0/E[0]. Replicated 6 times.
+INFO: [Physopt 32-81] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_1_U0/E[0]. Replicated 2 times.
+INFO: [Physopt 32-81] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/BBJ_u96_cnvW1A2_control_s_axi_U/E[0]. Replicated 2 times.
+INFO: [Physopt 32-572] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_4_U0/q0_reg[0][0] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-81] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_8_U0/E[0]. Replicated 3 times.
+INFO: [Physopt 32-572] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_U0/q0_reg[15][0] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-572] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_U0/grp_DoCompute_fu_646_threshs1_m_threshold_63_ce0 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-81] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/Matrix_Vector_Activa_1_U0/q0_reg[15][0]. Replicated 1 times.
+INFO: [Physopt 32-81] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/StreamingDataWidthCo_18_U0/SRL_SIG_reg[1][0]_0[0]. Replicated 1 times.
+INFO: [Physopt 32-572] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0/inst/grp_DoCompute_fu_646/DoCompute_Loop_2_pro_U0/grp_StreamingMaxPool_Pre_1_fu_53/SRL_SIG_reg[1][0][0] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-232] Optimized 6 nets. Created 15 new instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 6 nets or cells. Created 15 new cells, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.003 | TNS=0.000 |
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.483 . Memory (MB): peak = 3788.191 ; gain = 0.000
+Phase 27 Very High Fanout Optimization | Checksum: 13918cb47
+
+Time (s): cpu = 00:02:11 ; elapsed = 00:01:28 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 28 Placement Based Optimization
+INFO: [Physopt 32-670] No setup violation found.  Placement Based Optimization was not performed.
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.196 . Memory (MB): peak = 3788.191 ; gain = 0.000
+Phase 28 Placement Based Optimization | Checksum: 13918cb47
+
+Time (s): cpu = 00:02:12 ; elapsed = 00:01:28 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 29 MultiInst Placement Optimization
+INFO: [Physopt 32-670] No setup violation found.  MultiInst Placement Optimization was not performed.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.182 . Memory (MB): peak = 3788.191 ; gain = 0.000
+Phase 29 MultiInst Placement Optimization | Checksum: 13918cb47
+
+Time (s): cpu = 00:02:12 ; elapsed = 00:01:28 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 30 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.003 | TNS=0.000 |
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.003 | TNS=0.000 |
+Phase 30 Critical Path Optimization | Checksum: 13918cb47
+
+Time (s): cpu = 00:02:13 ; elapsed = 00:01:29 . Memory (MB): peak = 3788.191 ; gain = 0.000
+
+Phase 31 BRAM Enable Optimization
+Phase 31 BRAM Enable Optimization | Checksum: 13918cb47
+
+Time (s): cpu = 00:02:14 ; elapsed = 00:01:31 . Memory (MB): peak = 3788.191 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.183 . Memory (MB): peak = 3788.191 ; gain = 0.000
+INFO: [Physopt 32-669] Post Physical Optimization Timing Summary | WNS=0.003 | TNS=0.000 | WHS=0.000 | THS=0.000 |
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization          |  WNS Gain (ns)  |  TNS Gain (ns)  |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Fanout                |          0.000  |          0.027  |            0  |              0  |                     1  |           0  |           1  |  00:00:06  |
+|  Placement Based       |          0.056  |          6.871  |            0  |              0  |                   142  |           0  |           1  |  00:00:28  |
+|  MultiInst Placement   |          0.091  |          2.571  |            0  |              0  |                     2  |           0  |           1  |  00:00:05  |
+|  Rewire                |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Critical Cell         |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Slr Crossing          |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register          |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  BRAM Register         |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  URAM Register         |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register        |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Critical Pin          |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Very High Fanout      |          0.000  |          0.000  |           15  |              0  |                     6  |           0  |           1  |  00:00:18  |
+|  BRAM Enable           |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           1  |  00:00:03  |
+|  Critical Path         |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           1  |  00:00:01  |
+|  Total                 |          0.147  |          9.469  |           15  |              0  |                   151  |           0  |           7  |  00:01:01  |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Physical Synthesis Task | Checksum: 13918cb47
+
+Time (s): cpu = 00:02:24 ; elapsed = 00:01:41 . Memory (MB): peak = 3788.191 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+378 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:03:15 ; elapsed = 00:02:13 . Memory (MB): peak = 3788.191 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 3788.191 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/impl_1/super_wrapper_physopt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:25 ; elapsed = 00:00:16 . Memory (MB): peak = 3788.191 ; gain = 0.000
+Command: route_design -directive AlternateCLBRouting
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-270] Using Router directive 'AlternateCLBRouting'.
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 9718399f ConstDB: 0 ShapeSum: d83b92f RouteDB: dba65213
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 14506cb9e
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:30 . Memory (MB): peak = 4261.043 ; gain = 0.000
+Post Restoration Checksum: NetGraph: 15b1c4ed NumContArr: c0177958 Constraints: d72741f8 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 1acf0803d
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:34 . Memory (MB): peak = 4261.043 ; gain = 0.000
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 1acf0803d
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:34 . Memory (MB): peak = 4261.043 ; gain = 0.000
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 1acf0803d
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:34 . Memory (MB): peak = 4261.043 ; gain = 0.000
+
+Phase 2.4 Global Clock Net Routing
+ Number of Nodes with overlaps = 0
+Phase 2.4 Global Clock Net Routing | Checksum: 10bf1c8fe
+
+Time (s): cpu = 00:00:54 ; elapsed = 00:00:37 . Memory (MB): peak = 4261.043 ; gain = 0.000
+
+Phase 2.5 Update Timing
+Phase 2.5 Update Timing | Checksum: 18f113d5d
+
+Time (s): cpu = 00:01:45 ; elapsed = 00:01:08 . Memory (MB): peak = 4261.043 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.120  | TNS=0.000  | WHS=-0.074 | THS=-13.446|
+
+Phase 2 Router Initialization | Checksum: 1dc005a49
+
+Time (s): cpu = 00:02:17 ; elapsed = 00:01:30 . Memory (MB): peak = 4261.043 ; gain = 0.000
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: b5ec0b5e
+
+Time (s): cpu = 00:03:04 ; elapsed = 00:01:58 . Memory (MB): peak = 4261.043 ; gain = 0.000
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 23351
+ Number of Nodes with overlaps = 3349
+ Number of Nodes with overlaps = 740
+ Number of Nodes with overlaps = 257
+ Number of Nodes with overlaps = 128
+INFO: [Route 35-443] CLB routing congestion detected. Several CLBs have high routing utilization, which can impact timing closure. Top ten most congested CLBs are: CLEM_X11Y28 CLEL_R_X11Y28 CLEL_L_X17Y13 CLEL_R_X17Y13 CLEM_X22Y29 CLEL_R_X22Y29 CLEM_X6Y41 CLEL_R_X6Y41 CLEL_R_X21Y123 CLEM_X6Y172 
+ Number of Nodes with overlaps = 83
+ Number of Nodes with overlaps = 55
+ Number of Nodes with overlaps = 26
+ Number of Nodes with overlaps = 22
+INFO: [Route 35-443] CLB routing congestion detected. Several CLBs have high routing utilization, which can impact timing closure. Top ten most congested CLBs are: CLEL_L_X7Y173 CLEL_R_X7Y173 CLEL_L_X7Y170 CLEL_R_X7Y170 CLEL_R_X8Y169 CLEL_R_X10Y28 CLEL_R_X21Y167 CLEL_R_X21Y111 CLEM_X22Y169 CLEL_R_X22Y169 
+ Number of Nodes with overlaps = 12
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 4
+INFO: [Route 35-443] CLB routing congestion detected. Several CLBs have high routing utilization, which can impact timing closure. Top ten most congested CLBs are: CLEM_R_X28Y154 
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.069 | TNS=-2.560 | WHS=-0.034 | THS=-0.999 |
+
+Phase 4.1 Global Iteration 0 | Checksum: 183dbe62f
+
+Time (s): cpu = 00:11:14 ; elapsed = 00:07:28 . Memory (MB): peak = 4261.043 ; gain = 0.000
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 271
+ Number of Nodes with overlaps = 51
+ Number of Nodes with overlaps = 17
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.006 | TNS=-0.027 | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: b1bdc6be
+
+Time (s): cpu = 00:12:00 ; elapsed = 00:08:11 . Memory (MB): peak = 4261.043 ; gain = 0.000
+
+Phase 4.3 Global Iteration 2
+ Number of Nodes with overlaps = 160
+ Number of Nodes with overlaps = 31
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.043  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.3 Global Iteration 2 | Checksum: 180a6cc43
+
+Time (s): cpu = 00:12:28 ; elapsed = 00:08:36 . Memory (MB): peak = 4261.043 ; gain = 0.000
+Phase 4 Rip-up And Reroute | Checksum: 180a6cc43
+
+Time (s): cpu = 00:12:28 ; elapsed = 00:08:36 . Memory (MB): peak = 4261.043 ; gain = 0.000
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 181720469
+
+Time (s): cpu = 00:12:52 ; elapsed = 00:08:51 . Memory (MB): peak = 4261.043 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.043  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+Phase 5.1 Delay CleanUp | Checksum: 181720469
+
+Time (s): cpu = 00:12:52 ; elapsed = 00:08:52 . Memory (MB): peak = 4261.043 ; gain = 0.000
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 181720469
+
+Time (s): cpu = 00:12:52 ; elapsed = 00:08:52 . Memory (MB): peak = 4261.043 ; gain = 0.000
+Phase 5 Delay and Skew Optimization | Checksum: 181720469
+
+Time (s): cpu = 00:12:53 ; elapsed = 00:08:52 . Memory (MB): peak = 4261.043 ; gain = 0.000
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1724f1e18
+
+Time (s): cpu = 00:13:10 ; elapsed = 00:09:04 . Memory (MB): peak = 4261.043 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.043  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1d18216b2
+
+Time (s): cpu = 00:13:10 ; elapsed = 00:09:05 . Memory (MB): peak = 4261.043 ; gain = 0.000
+Phase 6 Post Hold Fix | Checksum: 1d18216b2
+
+Time (s): cpu = 00:13:10 ; elapsed = 00:09:05 . Memory (MB): peak = 4261.043 ; gain = 0.000
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 19.2018 %
+  Global Horizontal Routing Utilization  = 21.1125 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 1c6e8676b
+
+Time (s): cpu = 00:13:11 ; elapsed = 00:09:06 . Memory (MB): peak = 4261.043 ; gain = 0.000
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 1c6e8676b
+
+Time (s): cpu = 00:13:12 ; elapsed = 00:09:06 . Memory (MB): peak = 4261.043 ; gain = 0.000
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1c6e8676b
+
+Time (s): cpu = 00:13:22 ; elapsed = 00:09:21 . Memory (MB): peak = 4261.043 ; gain = 0.000
+
+Phase 10 Route finalize
+Phase 10 Route finalize | Checksum: 1c6e8676b
+
+Time (s): cpu = 00:13:23 ; elapsed = 00:09:22 . Memory (MB): peak = 4261.043 ; gain = 0.000
+
+Phase 11 Post Router Timing
+INFO: [Route 35-20] Post Routing Timing Summary | WNS=0.044  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+INFO: [Route 35-61] The design met the timing requirement.
+Phase 11 Post Router Timing | Checksum: 14c27f739
+
+Time (s): cpu = 00:14:12 ; elapsed = 00:09:52 . Memory (MB): peak = 4261.043 ; gain = 0.000
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:14:13 ; elapsed = 00:09:52 . Memory (MB): peak = 4261.043 ; gain = 0.000
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+402 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:14:35 ; elapsed = 00:10:07 . Memory (MB): peak = 4261.043 ; gain = 472.852
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:21 ; elapsed = 00:00:09 . Memory (MB): peak = 4261.043 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/impl_1/super_wrapper_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:28 ; elapsed = 00:00:18 . Memory (MB): peak = 4261.043 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file super_wrapper_drc_routed.rpt -pb super_wrapper_drc_routed.pb -rpx super_wrapper_drc_routed.rpx
+Command: report_drc -file super_wrapper_drc_routed.rpt -pb super_wrapper_drc_routed.pb -rpx super_wrapper_drc_routed.rpx
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/impl_1/super_wrapper_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:30 ; elapsed = 00:00:19 . Memory (MB): peak = 4371.402 ; gain = 110.359
+INFO: [runtcl-4] Executing : report_methodology -file super_wrapper_methodology_drc_routed.rpt -pb super_wrapper_methodology_drc_routed.pb -rpx super_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file super_wrapper_methodology_drc_routed.rpt -pb super_wrapper_methodology_drc_routed.pb -rpx super_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/impl_1/super_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:46 ; elapsed = 00:00:28 . Memory (MB): peak = 4371.402 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_power -file super_wrapper_power_routed.rpt -pb super_wrapper_power_summary_routed.pb -rpx super_wrapper_power_routed.rpx
+Command: report_power -file super_wrapper_power_routed.rpt -pb super_wrapper_power_summary_routed.pb -rpx super_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+414 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:53 ; elapsed = 00:00:33 . Memory (MB): peak = 4471.574 ; gain = 100.172
+INFO: [runtcl-4] Executing : report_route_status -file super_wrapper_route_status.rpt -pb super_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file super_wrapper_timing_summary_routed.rpt -pb super_wrapper_timing_summary_routed.pb -rpx super_wrapper_timing_summary_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Temperature grade: I, Delay Type: min_max, Timing Stage: Requireds.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 4516.188 ; gain = 44.613
+INFO: [runtcl-4] Executing : report_incremental_reuse -file super_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-545] No incremental reuse to report, no incremental placement and routing data was found.
+INFO: [runtcl-4] Executing : report_clock_utilization -file super_wrapper_clock_utilization_routed.rpt
+report_clock_utilization: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 4516.188 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file super_wrapper_bus_skew_routed.rpt -pb super_wrapper_bus_skew_routed.pb -rpx super_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Temperature grade: I, Delay Type: min_max, Timing Stage: Requireds.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+Command: phys_opt_design -directive AggressiveExplore
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Vivado_Tcl 4-241] Physical synthesis in post route mode ( 100.0% nets are fully routed)
+INFO: [Vivado_Tcl 4-137] Directive used for phys_opt_design is: AggressiveExplore
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+430 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:21 ; elapsed = 00:00:09 . Memory (MB): peak = 4542.980 ; gain = 26.793
+INFO: [Common 17-1381] The checkpoint 'D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/impl_1/super_wrapper_postroute_physopt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:29 ; elapsed = 00:00:54 . Memory (MB): peak = 4542.980 ; gain = 26.793
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -warn_on_violation -file super_wrapper_timing_summary_postroute_physopted.rpt -pb super_wrapper_timing_summary_postroute_physopted.pb -rpx super_wrapper_timing_summary_postroute_physopted.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Temperature grade: I, Delay Type: min_max, Timing Stage: Requireds.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file super_wrapper_bus_skew_postroute_physopted.rpt -pb super_wrapper_bus_skew_postroute_physopted.pb -rpx super_wrapper_bus_skew_postroute_physopted.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Temperature grade: I, Delay Type: min_max, Timing Stage: Requireds.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Memdata 28-167] Found XPM memory block PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+Command: write_bitstream -force super_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC RTSTAT-10] No routable loads: 15 net(s) have no routable loads. The problem bus(es) and/or net(s) are PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i, PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i, PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i, PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/user_valid, PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/user_valid, and PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/user_valid.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./super_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-186] 'D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Tue Dec 24 01:11:29 2019. For additional details about this file, please refer to the WebTalk help file at D:/Xilinx/Vivado/2018.2/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+451 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:01:02 ; elapsed = 00:00:55 . Memory (MB): peak = 4730.137 ; gain = 187.156
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 24 01:11:29 2019...

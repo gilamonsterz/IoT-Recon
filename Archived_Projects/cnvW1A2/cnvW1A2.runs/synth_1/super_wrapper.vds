@@ -1,0 +1,379 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Dec 24 00:40:58 2019
+# Process ID: 16248
+# Current directory: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/synth_1
+# Command line: vivado.exe -log super_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source super_wrapper.tcl
+# Log file: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/synth_1/super_wrapper.vds
+# Journal file: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source super_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW2A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A2-ultra96'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+add_files: Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 893.598 ; gain = 592.934
+Command: synth_design -top super_wrapper -part xczu3eg-sbva484-1-i -fanout_limit 400 -directive AlternateRoutability -retiming -fsm_extraction one_hot -keep_equivalent_registers -resource_sharing off -no_lc -shreg_min_size 5
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3776 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 893.598 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'super_wrapper' [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/imports/imports/super_wrapper.v:22]
+INFO: [Synth 8-6157] synthesizing module 'procsys_wrapper' [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/hdl/procsys_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [D:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:22660]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (1#1) [D:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:22660]
+INFO: [Synth 8-6157] synthesizing module 'procsys' [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/synth/procsys.v:13]
+INFO: [Synth 8-6157] synthesizing module 'procsys_axi_smc_0' [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/synth_1/.Xil/Vivado-16248-DESKTOP-RKNG8TM/realtime/procsys_axi_smc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'procsys_axi_smc_0' (2#1) [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/synth_1/.Xil/Vivado-16248-DESKTOP-RKNG8TM/realtime/procsys_axi_smc_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'procsys_ps8_0_axi_periph_0' [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/synth/procsys.v:566]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_LT6ELU' [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/synth/procsys.v:876]
+INFO: [Synth 8-6157] synthesizing module 'procsys_auto_ds_0' [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/synth_1/.Xil/Vivado-16248-DESKTOP-RKNG8TM/realtime/procsys_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'procsys_auto_ds_0' (3#1) [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/synth_1/.Xil/Vivado-16248-DESKTOP-RKNG8TM/realtime/procsys_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'procsys_auto_pc_0' [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/synth_1/.Xil/Vivado-16248-DESKTOP-RKNG8TM/realtime/procsys_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'procsys_auto_pc_0' (4#1) [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/synth_1/.Xil/Vivado-16248-DESKTOP-RKNG8TM/realtime/procsys_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_LT6ELU' (5#1) [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/synth/procsys.v:876]
+INFO: [Synth 8-6155] done synthesizing module 'procsys_ps8_0_axi_periph_0' (6#1) [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/synth/procsys.v:566]
+INFO: [Synth 8-6157] synthesizing module 'procsys_rst_ps8_0_299M_0' [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/synth_1/.Xil/Vivado-16248-DESKTOP-RKNG8TM/realtime/procsys_rst_ps8_0_299M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'procsys_rst_ps8_0_299M_0' (7#1) [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/synth_1/.Xil/Vivado-16248-DESKTOP-RKNG8TM/realtime/procsys_rst_ps8_0_299M_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'rst_ps8_0_299M' of module 'procsys_rst_ps8_0_299M_0' requires 10 connections, but only 7 given [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/synth/procsys.v:465]
+INFO: [Synth 8-6157] synthesizing module 'procsys_zynq_ultra_ps_e_0_0' [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/synth_1/.Xil/Vivado-16248-DESKTOP-RKNG8TM/realtime/procsys_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'procsys_zynq_ultra_ps_e_0_0' (8#1) [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/synth_1/.Xil/Vivado-16248-DESKTOP-RKNG8TM/realtime/procsys_zynq_ultra_ps_e_0_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'zynq_ultra_ps_e_0' of module 'procsys_zynq_ultra_ps_e_0_0' requires 97 connections, but only 90 given [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/synth/procsys.v:473]
+INFO: [Synth 8-6155] done synthesizing module 'procsys' (9#1) [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/synth/procsys.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'procsys_wrapper' (10#1) [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/hdl/procsys_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'cnvW1A2_wrapper' [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/imports/imports/cnvW1A2_wrapper.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BBJ_u96_cnvW1A2_0' [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/synth_1/.Xil/Vivado-16248-DESKTOP-RKNG8TM/realtime/BBJ_u96_cnvW1A2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'BBJ_u96_cnvW1A2_0' (11#1) [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/synth_1/.Xil/Vivado-16248-DESKTOP-RKNG8TM/realtime/BBJ_u96_cnvW1A2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cnvW1A2_wrapper' (12#1) [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/imports/imports/cnvW1A2_wrapper.v:23]
+WARNING: [Synth 8-689] width (40) of port connection 's_axi_control_awaddr' does not match port width (7) of module 'cnvW1A2_wrapper' [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/imports/imports/super_wrapper.v:157]
+WARNING: [Synth 8-689] width (40) of port connection 's_axi_control_araddr' does not match port width (7) of module 'cnvW1A2_wrapper' [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/imports/imports/super_wrapper.v:167]
+WARNING: [Synth 8-689] width (1) of port connection 'm_axi_hostmem_awlock' does not match port width (2) of module 'cnvW1A2_wrapper' [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/imports/imports/super_wrapper.v:181]
+WARNING: [Synth 8-689] width (1) of port connection 'm_axi_hostmem_awregion' does not match port width (4) of module 'cnvW1A2_wrapper' [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/imports/imports/super_wrapper.v:182]
+WARNING: [Synth 8-689] width (1) of port connection 'm_axi_hostmem_arlock' does not match port width (2) of module 'cnvW1A2_wrapper' [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/imports/imports/super_wrapper.v:200]
+WARNING: [Synth 8-689] width (1) of port connection 'm_axi_hostmem_arregion' does not match port width (4) of module 'cnvW1A2_wrapper' [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/imports/imports/super_wrapper.v:201]
+INFO: [Synth 8-6155] done synthesizing module 'super_wrapper' (13#1) [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/imports/imports/super_wrapper.v:22]
+WARNING: [Synth 8-3331] design s00_couplers_imp_LT6ELU has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_LT6ELU has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design procsys_ps8_0_axi_periph_0 has unconnected port ACLK
+WARNING: [Synth 8-3331] design procsys_ps8_0_axi_periph_0 has unconnected port ARESETN
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 893.598 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 893.598 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 893.598 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-i
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_zynq_ultra_ps_e_0_0/procsys_zynq_ultra_ps_e_0_0/procsys_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/zynq_ultra_ps_e_0'
+Finished Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_zynq_ultra_ps_e_0_0/procsys_zynq_ultra_ps_e_0_0/procsys_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/zynq_ultra_ps_e_0'
+Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_rst_ps8_0_299M_0/procsys_rst_ps8_0_299M_0/procsys_rst_ps8_0_299M_0_in_context.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/rst_ps8_0_299M'
+Finished Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_rst_ps8_0_299M_0/procsys_rst_ps8_0_299M_0/procsys_rst_ps8_0_299M_0_in_context.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/rst_ps8_0_299M'
+Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_axi_smc_0/procsys_axi_smc_0/procsys_axi_smc_0_in_context.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc'
+Finished Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_axi_smc_0/procsys_axi_smc_0/procsys_axi_smc_0_in_context.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc'
+Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_auto_ds_0/procsys_auto_ds_0/procsys_auto_ds_0_in_context.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+Finished Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_auto_ds_0/procsys_auto_ds_0/procsys_auto_ds_0_in_context.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_auto_pc_0/procsys_auto_pc_0/procsys_auto_pc_0_in_context.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+Finished Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_auto_pc_0/procsys_auto_pc_0/procsys_auto_pc_0_in_context.xdc] for cell 'PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/ip/BBJ_u96_cnvW1A2_0/BBJ_u96_cnvW1A2_0/BBJ_u96_cnvW1A2_0_in_context.xdc] for cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0'
+Finished Parsing XDC File [d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/ip/BBJ_u96_cnvW1A2_0/BBJ_u96_cnvW1A2_0/BBJ_u96_cnvW1A2_0_in_context.xdc] for cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0'
+Parsing XDC File [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/constrs_1/imports/imports/ultra96.xdc]
+Finished Parsing XDC File [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/constrs_1/imports/imports/ultra96.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/constrs_1/imports/imports/ultra96.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/super_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/super_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 6 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1449.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1449.969 ; gain = 556.371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu3eg-sbva484-1-i
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1449.969 ; gain = 556.371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for PROCSYS_WRAPPER/procsys_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for PROCSYS_WRAPPER/procsys_i/zynq_ultra_ps_e_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for PROCSYS_WRAPPER/procsys_i/rst_ps8_0_299M. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for PROCSYS_WRAPPER/procsys_i/axi_smc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for BLACKBOX_WRAPPER/BBJ_U96_CNVW1A2_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1449.969 ; gain = 556.371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1449.969 ; gain = 556.371
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 360 (col length:72)
+BRAMs: 432 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design procsys_ps8_0_axi_periph_0 has unconnected port ACLK
+WARNING: [Synth 8-3331] design procsys_ps8_0_axi_periph_0 has unconnected port ARESETN
+WARNING: [Synth 8-3331] design procsys_ps8_0_axi_periph_0 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design procsys_ps8_0_axi_periph_0 has unconnected port M00_ARESETN
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1449.969 ; gain = 556.371
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'PROCSYS_WRAPPER/procsys_i/zynq_ultra_ps_e_0/pl_clk0' to pin 'PROCSYS_WRAPPER/procsys_i/zynq_ultra_ps_e_0/bbstub_pl_clk0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'PROCSYS_WRAPPER/procsys_i/zynq_ultra_ps_e_0/pl_clk1' to pin 'PROCSYS_WRAPPER/procsys_i/zynq_ultra_ps_e_0/bbstub_pl_clk1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'PROCSYS_WRAPPER/procsys_i/zynq_ultra_ps_e_0/pl_clk2' to pin 'PROCSYS_WRAPPER/procsys_i/zynq_ultra_ps_e_0/bbstub_pl_clk2/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'PROCSYS_WRAPPER/procsys_i/zynq_ultra_ps_e_0/pl_clk3' to pin 'PROCSYS_WRAPPER/procsys_i/zynq_ultra_ps_e_0/bbstub_pl_clk3/O'
+INFO: [Synth 8-5819] Moved 4 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 1839.246 ; gain = 945.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 1839.598 ; gain = 946.000
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5816] Retiming module `procsys_ps8_0_axi_periph_0`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `procsys_ps8_0_axi_periph_0' done
+
+
+INFO: [Synth 8-5816] Retiming module `procsys`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `procsys' done
+
+
+INFO: [Synth 8-5816] Retiming module `super_wrapper`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `super_wrapper' done
+
+
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 1841.410 ; gain = 947.813
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 1841.598 ; gain = 948.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 1841.598 ; gain = 948.000
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 1841.598 ; gain = 948.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 1841.598 ; gain = 948.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 1841.598 ; gain = 948.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 1841.598 ; gain = 948.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------------------+----------+
+|      |BlackBox name               |Instances |
++------+----------------------------+----------+
+|1     |BBJ_u96_cnvW1A2_0           |         1|
+|2     |procsys_auto_ds_0           |         1|
+|3     |procsys_auto_pc_0           |         1|
+|4     |procsys_axi_smc_0           |         1|
+|5     |procsys_rst_ps8_0_299M_0    |         1|
+|6     |procsys_zynq_ultra_ps_e_0_0 |         1|
++------+----------------------------+----------+
+
+Report Cell Usage: 
++------+----------------------------+------+
+|      |Cell                        |Count |
++------+----------------------------+------+
+|1     |BBJ_u96_cnvW1A2_0           |     1|
+|2     |procsys_auto_ds_0           |     1|
+|3     |procsys_auto_pc_0           |     1|
+|4     |procsys_axi_smc_0           |     1|
+|5     |procsys_rst_ps8_0_299M_0    |     1|
+|6     |procsys_zynq_ultra_ps_e_0_0 |     1|
+|7     |IBUF                        |     2|
+|8     |IOBUF                       |     6|
+|9     |OBUF                        |     2|
++------+----------------------------+------+
+
+Report Instance Areas: 
++------+-----------------------+---------------------------+------+
+|      |Instance               |Module                     |Cells |
++------+-----------------------+---------------------------+------+
+|1     |top                    |                           |  1728|
+|2     |  BLACKBOX_WRAPPER     |cnvW1A2_wrapper            |   308|
+|3     |  PROCSYS_WRAPPER      |procsys_wrapper            |  1416|
+|4     |    procsys_i          |procsys                    |  1410|
+|5     |      ps8_0_axi_periph |procsys_ps8_0_axi_periph_0 |   519|
+|6     |        s00_couplers   |s00_couplers_imp_LT6ELU    |   519|
++------+-----------------------+---------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 1841.598 ; gain = 948.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 1841.598 ; gain = 391.629
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 1841.602 ; gain = 948.000
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 2 instances
+  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 6 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+58 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:33 . Memory (MB): peak = 1879.641 ; gain = 986.043
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/synth_1/super_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file super_wrapper_utilization_synth.rpt -pb super_wrapper_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1880.016 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 24 00:41:48 2019...
