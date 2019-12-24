@@ -1,4 +1,0 @@
-ERROR: Exception caught trying to open file D:\Adam\Documents\Vivado_Projects\FINN-PreRecon\lfcW1A1-ultra96\lfcW1A1-ultra96.runs\lfcw1a1_BBox_0_synth_1/runme.log
-	Exception name: Error
-	Exception error code: 70
-	Exception message: Permission denied
