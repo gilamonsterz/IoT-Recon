@@ -1,0 +1,651 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Dec 23 23:02:16 2019
+# Process ID: 14224
+# Current directory: C:/Users/Adam/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1612
+# Log file: C:/Users/Adam/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/Adam/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/lfcW1A1/lfcW1A1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A1-ultra96'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 1353.172 ; gain = 613.402
+update_compile_order -fileset sources_1
+close_project
+open_project D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW2A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A2-ultra96'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 1353.172 ; gain = 0.000
+update_compile_order -fileset sources_1
+close_project
+open_project D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW1A2/cnvW1A2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW2A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A2-ultra96'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1353.172 ; gain = 0.000
+update_compile_order -fileset sources_1
+close_project
+open_project D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW1A1/cnvW1A1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW2A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A2-ultra96'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1353.172 ; gain = 0.000
+update_compile_order -fileset sources_1
+close_project
+open_project D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW1A2/cnvW1A2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW2A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A2-ultra96'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:19 . Memory (MB): peak = 1353.172 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Dec 23 23:08:26 2019] Launched synth_1...
+Run output will be captured here: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW1A2/cnvW1A2.runs/synth_1/runme.log
+[Mon Dec 23 23:08:26 2019] Launched impl_1...
+Run output will be captured here: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW1A2/cnvW1A2.runs/impl_1/runme.log
+save_project_as IoT-Recon D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Recon/IoT-Recon -force
+save_project_as: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1353.172 ; gain = 0.000
+close_project
+open_project D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW1A2/cnvW1A2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW2A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A2-ultra96'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1353.172 ; gain = 0.000
+update_compile_order -fileset sources_1
+save_project_as cnvW1A2 D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2 -force
+save_project_as: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1353.172 ; gain = 0.000
+import_files -norecurse {D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/imports/super_wrapper.v D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/imports/cnvW1A2_wrapper.v}
+update_compile_order -fileset sources_1
+open_bd_design {D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/procsys.bd}
+Adding cell -- xilinx.com:ip:zynq_ultra_ps_e:3.2 - zynq_ultra_ps_e_0
+Adding cell -- xilinx.com:hls:BBJ_u96_cnvW1A2:1.0 - BBJ_u96_cnvW1A2_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps8_0_299M
+Adding cell -- xilinx.com:ip:smartconnect:1.0 - axi_smc
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Excluding </zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM> from </BBJ_u96_cnvW1A2_0/Data_m_axi_hostmem>
+Successfully read diagram <procsys> from BD file <D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/procsys.bd>
+update_compile_order -fileset sources_1
+delete_bd_objs [get_bd_intf_nets ps8_0_axi_periph_M00_AXI]
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins ps8_0_axi_periph/M00_AXI]
+endgroup
+delete_bd_objs [get_bd_intf_nets BBJ_u96_cnvW1A2_0_m_axi_hostmem]
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins axi_smc/S00_AXI]
+endgroup
+disconnect_bd_net /zynq_ultra_ps_e_0_pl_clk2 [get_bd_pins zynq_ultra_ps_e_0/pl_clk2]
+startgroup
+make_bd_pins_external  [get_bd_pins zynq_ultra_ps_e_0/pl_clk2]
+endgroup
+connect_bd_net [get_bd_pins zynq_ultra_ps_e_0/pl_clk2] [get_bd_pins axi_smc/aclk]
+disconnect_bd_net /zynq_ultra_ps_e_0_pl_clk3 [get_bd_pins axi_smc/aclk]
+undo
+INFO: [Common 17-17] undo 'disconnect_bd_net /zynq_ultra_ps_e_0_pl_clk3 [get_bd_pins axi_smc/aclk]'
+disconnect_bd_net /zynq_ultra_ps_e_0_pl_clk3 [get_bd_pins BBJ_u96_cnvW1A2_0/ap_clk]
+disconnect_bd_net /rst_ps8_0_299M_peripheral_aresetn [get_bd_pins rst_ps8_0_299M/peripheral_aresetn]
+startgroup
+make_bd_pins_external  [get_bd_pins rst_ps8_0_299M/peripheral_aresetn]
+endgroup
+connect_bd_net [get_bd_pins rst_ps8_0_299M/peripheral_aresetn] [get_bd_pins BBJ_u96_cnvW1A2_0/ap_rst_n]
+disconnect_bd_net /rst_ps8_0_299M_peripheral_aresetn1 [get_bd_pins BBJ_u96_cnvW1A2_0/ap_rst_n]
+set_property name S00_AXI [get_bd_intf_ports S00_AXI_0]
+set_property name M00_AXI [get_bd_intf_ports M00_AXI_0]
+set_property name ap_clk [get_bd_ports pl_clk2_0]
+set_property name ap_rst_n [get_bd_ports peripheral_aresetn_0]
+save_bd_design
+Wrote  : <D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/procsys.bd> 
+Wrote  : <D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ui/bd_22a2a737.ui> 
+delete_bd_objs [get_bd_cells BBJ_u96_cnvW1A2_0]
+regenerate_bd_layout
+save_bd_design
+Wrote  : <D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/procsys.bd> 
+Wrote  : <D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ui/bd_22a2a737.ui> 
+generate_target all [get_files  D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/procsys.bd]
+CRITICAL WARNING: [BD 41-1356] Address block </M00_AXI/Reg> is not mapped into </zynq_ultra_ps_e_0/Data>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_LOW> is not mapped into </S00_AXI>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM> is not mapped into </S00_AXI>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [xilinx.com:ip:smartconnect:1.0-1] procsys_axi_smc_0: The device(s) attached to /S00_AXI do not share a common clock source with this smartconnect instance.   Re-customize this AXI SmartConnect instance to add a new clock pin and connect it to the same clock source of the IP attached to /S00_AXI to prevent futher clock DRC violations.
+CRITICAL WARNING: [BD 41-1356] Address block </M00_AXI/Reg> is not mapped into </zynq_ultra_ps_e_0/Data>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_LOW> is not mapped into </S00_AXI>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM> is not mapped into </S00_AXI>. Please use Address Editor to either map or exclude it.
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_ds/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_FPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_ds/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_FPD(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /axi_smc/M00_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /axi_smc/M00_AXI(0)
+Wrote  : <D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/procsys.bd> 
+VHDL Output written to : D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/synth/procsys.v
+VHDL Output written to : D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/sim/procsys.v
+VHDL Output written to : D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/hdl/procsys_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block zynq_ultra_ps_e_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps8_0_299M .
+Exporting to file d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_axi_smc_0/bd_0/hw_handoff/procsys_axi_smc_0.hwh
+Generated Block Design Tcl file d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_axi_smc_0/bd_0/hw_handoff/procsys_axi_smc_0_bd.tcl
+Generated Hardware Definition File d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_axi_smc_0/bd_0/synth/procsys_axi_smc_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_smc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_auto_ds_0/procsys_auto_ds_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/s00_couplers/auto_ds .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/ip/procsys_auto_pc_0/procsys_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/hw_handoff/procsys.hwh
+Generated Block Design Tcl file D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/hw_handoff/procsys_bd.tcl
+Generated Hardware Definition File D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/synth/procsys.hwdef
+generate_target: Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 1446.430 ; gain = 93.258
+catch { config_ip_cache -export [get_ips -all procsys_auto_ds_0] }
+catch { config_ip_cache -export [get_ips -all procsys_auto_pc_0] }
+export_ip_user_files -of_objects [get_files D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/procsys.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/procsys.bd]
+launch_runs -jobs 4 {procsys_auto_ds_0_synth_1 procsys_auto_pc_0_synth_1}
+[Mon Dec 23 23:53:39 2019] Launched procsys_auto_ds_0_synth_1, procsys_auto_pc_0_synth_1...
+Run output will be captured here:
+procsys_auto_ds_0_synth_1: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/procsys_auto_ds_0_synth_1/runme.log
+procsys_auto_pc_0_synth_1: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/procsys_auto_pc_0_synth_1/runme.log
+export_simulation -of_objects [get_files D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/bd/procsys/procsys.bd] -directory D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.ip_user_files/sim_scripts -ip_user_files_dir D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.ip_user_files -ipstatic_source_dir D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.cache/compile_simlib/modelsim} {questa=D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.cache/compile_simlib/questa} {riviera=D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.cache/compile_simlib/riviera} {activehdl=D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Dec 23 23:58:45 2019] Launched synth_1...
+Run output will be captured here: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/synth_1/runme.log
+[Mon Dec 23 23:58:45 2019] Launched impl_1...
+Run output will be captured here: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/impl_1/runme.log
+create_ip -name BBJ_u96_cnvW1A2 -vendor xilinx.com -library hls -version 1.0 -module_name BBJ_u96_cnvW1A2_0 -dir d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/ip
+generate_target {instantiation_template} [get_files d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/ip/BBJ_u96_cnvW1A2_0/BBJ_u96_cnvW1A2_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'BBJ_u96_cnvW1A2_0'...
+update_compile_order -fileset sources_1
+generate_target all [get_files  d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/ip/BBJ_u96_cnvW1A2_0/BBJ_u96_cnvW1A2_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'BBJ_u96_cnvW1A2_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'BBJ_u96_cnvW1A2_0'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'BBJ_u96_cnvW1A2_0'...
+INFO: [IP_Flow 19-1686] Generating 'Software Driver' target for IP 'BBJ_u96_cnvW1A2_0'...
+catch { config_ip_cache -export [get_ips -all BBJ_u96_cnvW1A2_0] }
+export_ip_user_files -of_objects [get_files d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/ip/BBJ_u96_cnvW1A2_0/BBJ_u96_cnvW1A2_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/ip/BBJ_u96_cnvW1A2_0/BBJ_u96_cnvW1A2_0.xci]
+launch_runs -jobs 4 BBJ_u96_cnvW1A2_0_synth_1
+[Mon Dec 23 23:59:56 2019] Launched BBJ_u96_cnvW1A2_0_synth_1...
+Run output will be captured here: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/BBJ_u96_cnvW1A2_0_synth_1/runme.log
+export_simulation -of_objects [get_files d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.srcs/sources_1/ip/BBJ_u96_cnvW1A2_0/BBJ_u96_cnvW1A2_0.xci] -directory D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.ip_user_files/sim_scripts -ip_user_files_dir D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.ip_user_files -ipstatic_source_dir D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.cache/compile_simlib/modelsim} {questa=D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.cache/compile_simlib/questa} {riviera=D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.cache/compile_simlib/riviera} {activehdl=D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 24 00:40:56 2019] Launched synth_1...
+Run output will be captured here: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/synth_1/runme.log
+[Tue Dec 24 00:40:56 2019] Launched impl_1...
+Run output will be captured here: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.runs/impl_1/runme.log
+close_project
+open_project D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW1A1/cnvW1A1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW2A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A2-ultra96'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1510.688 ; gain = 5.891
+close_project
+open_project D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2/cnvW1A2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW2A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A2-ultra96'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1516.828 ; gain = 6.141
+update_compile_order -fileset sources_1
+archive_project D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2-tested.xpr.zip -temp_dir C:/Users/Adam/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-14224-DESKTOP-RKNG8TM -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/Adam/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-14224-DESKTOP-RKNG8TM' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW2A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A2-ultra96'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/Adam/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-14224-DESKTOP-RKNG8TM/PrjAr/_X_'.
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'procsys_auto_ds_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'procsys_auto_pc_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'BBJ_u96_cnvW1A2_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-133] re-setting run 'procsys_auto_ds_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'procsys_auto_pc_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'BBJ_u96_cnvW1A2_0_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'BBJ_u96_cnvW1A2_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'BBJ_u96_cnvW1A2_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'procsys_auto_ds_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'procsys_auto_ds_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'procsys_auto_pc_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'procsys_auto_pc_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+INFO: [Coretcl 2-1210] Compressing project files and data...
+INFO: [Coretcl 2-1215] Project archived (D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A2-tested.xpr.zip)
+INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory.
+archive_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:52 . Memory (MB): peak = 1569.012 ; gain = 52.184
+close_project
+open_project D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW1A1/cnvW1A1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW2A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A2-ultra96'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1572.395 ; gain = 3.383
+update_compile_order -fileset sources_1
+save_project_as cnvW1A1 D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1 -force
+save_project_as: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1572.395 ; gain = 0.000
+import_files -norecurse {D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/imports/super_wrapper.v D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/imports/cnvW1A1_wrapper.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+create_ip -name BBJ_u96_cnvW1A1 -vendor xilinx.com -library hls -version 1.0 -module_name BBJ_u96_cnvW1A1_0 -dir d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/ip
+generate_target {instantiation_template} [get_files d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/ip/BBJ_u96_cnvW1A1_0/BBJ_u96_cnvW1A1_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'BBJ_u96_cnvW1A1_0'...
+generate_target all [get_files  d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/ip/BBJ_u96_cnvW1A1_0/BBJ_u96_cnvW1A1_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'BBJ_u96_cnvW1A1_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'BBJ_u96_cnvW1A1_0'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'BBJ_u96_cnvW1A1_0'...
+INFO: [IP_Flow 19-1686] Generating 'Software Driver' target for IP 'BBJ_u96_cnvW1A1_0'...
+catch { config_ip_cache -export [get_ips -all BBJ_u96_cnvW1A1_0] }
+export_ip_user_files -of_objects [get_files d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/ip/BBJ_u96_cnvW1A1_0/BBJ_u96_cnvW1A1_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/ip/BBJ_u96_cnvW1A1_0/BBJ_u96_cnvW1A1_0.xci]
+launch_runs -jobs 4 BBJ_u96_cnvW1A1_0_synth_1
+[Tue Dec 24 01:29:13 2019] Launched BBJ_u96_cnvW1A1_0_synth_1...
+Run output will be captured here: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.runs/BBJ_u96_cnvW1A1_0_synth_1/runme.log
+export_simulation -of_objects [get_files d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/ip/BBJ_u96_cnvW1A1_0/BBJ_u96_cnvW1A1_0.xci] -directory D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.ip_user_files/sim_scripts -ip_user_files_dir D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.ip_user_files -ipstatic_source_dir D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.cache/compile_simlib/modelsim} {questa=D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.cache/compile_simlib/questa} {riviera=D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.cache/compile_simlib/riviera} {activehdl=D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+open_bd_design {D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/bd/procsys/procsys.bd}
+Adding cell -- xilinx.com:ip:zynq_ultra_ps_e:3.2 - zynq_ultra_ps_e_0
+Adding cell -- xilinx.com:hls:BBJ_u96_cnvW1A1:1.0 - BBJ_u96_cnvW1A1_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps8_0_299M
+Adding cell -- xilinx.com:ip:smartconnect:1.0 - axi_smc
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Excluding </zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM> from </BBJ_u96_cnvW1A1_0/Data_m_axi_hostmem>
+Successfully read diagram <procsys> from BD file <D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/bd/procsys/procsys.bd>
+delete_bd_objs [get_bd_intf_nets ps8_0_axi_periph_M00_AXI]
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins ps8_0_axi_periph/M00_AXI]
+endgroup
+delete_bd_objs [get_bd_intf_nets BBJ_u96_cnvW1A1_0_m_axi_hostmem]
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins axi_smc/S00_AXI]
+endgroup
+disconnect_bd_net /zynq_ultra_ps_e_0_pl_clk2 [get_bd_pins zynq_ultra_ps_e_0/pl_clk2]
+startgroup
+make_bd_pins_external  [get_bd_pins zynq_ultra_ps_e_0/pl_clk2]
+endgroup
+connect_bd_net [get_bd_pins zynq_ultra_ps_e_0/pl_clk2] [get_bd_pins zynq_ultra_ps_e_0/maxihpm0_fpd_aclk]
+disconnect_bd_net /rst_ps8_0_299M_peripheral_aresetn [get_bd_pins rst_ps8_0_299M/peripheral_aresetn]
+startgroup
+make_bd_pins_external  [get_bd_pins rst_ps8_0_299M/peripheral_aresetn]
+endgroup
+connect_bd_net [get_bd_pins rst_ps8_0_299M/peripheral_aresetn] [get_bd_pins BBJ_u96_cnvW1A1_0/ap_rst_n]
+delete_bd_objs [get_bd_cells BBJ_u96_cnvW1A1_0]
+set_property name S00_AXI [get_bd_intf_ports S00_AXI_0]
+set_property name M00_AXI [get_bd_intf_ports M00_AXI_0]
+set_property name ap_clk [get_bd_ports pl_clk2_0]
+set_property name ap_rst_n [get_bd_ports peripheral_aresetn_0]
+regenerate_bd_layout
+save_bd_design
+Wrote  : <D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/bd/procsys/procsys.bd> 
+Wrote  : <D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/bd/procsys/ui/bd_22a2a737.ui> 
+close_bd_design [get_bd_designs procsys]
+generate_target all [get_files  D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/bd/procsys/procsys.bd]
+CRITICAL WARNING: [BD 41-1356] Address block </M00_AXI/Reg> is not mapped into </zynq_ultra_ps_e_0/Data>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_LOW> is not mapped into </S00_AXI>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM> is not mapped into </S00_AXI>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [xilinx.com:ip:smartconnect:1.0-1] procsys_axi_smc_0: The device(s) attached to /S00_AXI do not share a common clock source with this smartconnect instance.   Re-customize this AXI SmartConnect instance to add a new clock pin and connect it to the same clock source of the IP attached to /S00_AXI to prevent futher clock DRC violations.
+CRITICAL WARNING: [BD 41-1356] Address block </M00_AXI/Reg> is not mapped into </zynq_ultra_ps_e_0/Data>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_LOW> is not mapped into </S00_AXI>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM> is not mapped into </S00_AXI>. Please use Address Editor to either map or exclude it.
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_ds/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_FPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_ds/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_FPD(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /axi_smc/M00_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /axi_smc/M00_AXI(0)
+Wrote  : <D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/bd/procsys/procsys.bd> 
+VHDL Output written to : D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/bd/procsys/synth/procsys.v
+VHDL Output written to : D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/bd/procsys/sim/procsys.v
+VHDL Output written to : D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/bd/procsys/hdl/procsys_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block zynq_ultra_ps_e_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps8_0_299M .
+Exporting to file d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/bd/procsys/ip/procsys_axi_smc_0/bd_0/hw_handoff/procsys_axi_smc_0.hwh
+Generated Block Design Tcl file d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/bd/procsys/ip/procsys_axi_smc_0/bd_0/hw_handoff/procsys_axi_smc_0_bd.tcl
+Generated Hardware Definition File d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/bd/procsys/ip/procsys_axi_smc_0/bd_0/synth/procsys_axi_smc_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_smc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/bd/procsys/ip/procsys_auto_ds_0/procsys_auto_ds_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/s00_couplers/auto_ds .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/bd/procsys/ip/procsys_auto_pc_0/procsys_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/bd/procsys/hw_handoff/procsys.hwh
+Generated Block Design Tcl file D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/bd/procsys/hw_handoff/procsys_bd.tcl
+Generated Hardware Definition File D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/bd/procsys/synth/procsys.hwdef
+generate_target: Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1677.063 ; gain = 98.250
+catch { config_ip_cache -export [get_ips -all procsys_auto_ds_0] }
+catch { config_ip_cache -export [get_ips -all procsys_auto_pc_0] }
+export_ip_user_files -of_objects [get_files D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/bd/procsys/procsys.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/bd/procsys/procsys.bd]
+launch_runs -jobs 4 {procsys_auto_ds_0_synth_1 procsys_auto_pc_0_synth_1}
+[Tue Dec 24 01:32:19 2019] Launched procsys_auto_ds_0_synth_1, procsys_auto_pc_0_synth_1...
+Run output will be captured here:
+procsys_auto_ds_0_synth_1: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.runs/procsys_auto_ds_0_synth_1/runme.log
+procsys_auto_pc_0_synth_1: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.runs/procsys_auto_pc_0_synth_1/runme.log
+export_simulation -of_objects [get_files D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.srcs/sources_1/bd/procsys/procsys.bd] -directory D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.ip_user_files/sim_scripts -ip_user_files_dir D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.ip_user_files -ipstatic_source_dir D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.cache/compile_simlib/modelsim} {questa=D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.cache/compile_simlib/questa} {riviera=D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.cache/compile_simlib/riviera} {activehdl=D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 4207 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-i
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 3017.059 ; gain = 51.891
+Restored from archive | CPU: 7.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 3017.059 ; gain = 51.891
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1588 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD_DATA, DSP_PREADD): 24 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 2 instances
+  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 6 instances
+  RAM16X1S => RAM32X1S (RAMS32): 1456 instances
+  RAM32M16 => RAM32M16 (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 52 instances
+  RAM32X1S => RAM32X1S (RAMS32): 48 instances
+
+open_run: Time (s): cpu = 00:00:45 ; elapsed = 00:00:40 . Memory (MB): peak = 3643.789 ; gain = 1952.707
+open_report: Time (s): cpu = 00:00:22 ; elapsed = 00:00:08 . Memory (MB): peak = 3667.859 ; gain = 24.070
+close_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 24 01:51:21 2019] Launched synth_1...
+Run output will be captured here: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.runs/synth_1/runme.log
+[Tue Dec 24 01:51:21 2019] Launched impl_1...
+Run output will be captured here: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1/cnvW1A1.runs/impl_1/runme.log
+archive_project D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1-tested.xpr.zip -temp_dir C:/Users/Adam/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-14224-DESKTOP-RKNG8TM -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/Adam/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-14224-DESKTOP-RKNG8TM' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW2A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A2-ultra96'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/Adam/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-14224-DESKTOP-RKNG8TM/PrjAr/_X_'.
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'procsys_zynq_ultra_ps_e_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'procsys_axi_smc_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'procsys_rst_ps8_0_299M_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'BBJ_u96_cnvW1A1_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'procsys_auto_ds_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'procsys_auto_pc_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-133] re-setting run 'procsys_zynq_ultra_ps_e_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'procsys_axi_smc_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'procsys_rst_ps8_0_299M_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'BBJ_u96_cnvW1A1_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'procsys_auto_ds_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'procsys_auto_pc_0_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'BBJ_u96_cnvW1A1_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'BBJ_u96_cnvW1A1_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'procsys_auto_ds_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'procsys_auto_ds_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'procsys_auto_pc_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'procsys_auto_pc_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'procsys_axi_smc_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'procsys_axi_smc_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'procsys_rst_ps8_0_299M_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'procsys_rst_ps8_0_299M_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'procsys_zynq_ultra_ps_e_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'procsys_zynq_ultra_ps_e_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+INFO: [Coretcl 2-1210] Compressing project files and data...
+INFO: [Coretcl 2-1215] Project archived (D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW1A1-tested.xpr.zip)
+INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory.
+archive_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:51 . Memory (MB): peak = 5643.246 ; gain = 0.000
+close_project
+open_project D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW2A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A2-ultra96'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 5643.246 ; gain = 0.000
+update_compile_order -fileset sources_1
+import_files -norecurse {D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/imports/super_wrapper.v D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/imports/cnvW2A2_wrapper.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+open_bd_design {D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.srcs/sources_1/bd/procsys/procsys.bd}
+Adding cell -- xilinx.com:ip:zynq_ultra_ps_e:3.2 - zynq_ultra_ps_e_0
+Adding cell -- xilinx.com:hls:BBJ_u96_cnvW2A2:1.0 - BBJ_u96_cnvW2A2_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps8_0_299M
+Adding cell -- xilinx.com:ip:smartconnect:1.0 - axi_smc
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Excluding </zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM> from </BBJ_u96_cnvW2A2_0/Data_m_axi_hostmem>
+Successfully read diagram <procsys> from BD file <D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.srcs/sources_1/bd/procsys/procsys.bd>
+delete_bd_objs [get_bd_intf_nets ps8_0_axi_periph_M00_AXI] [get_bd_intf_nets BBJ_u96_cnvW2A2_0_m_axi_hostmem] [get_bd_cells BBJ_u96_cnvW2A2_0]
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins axi_smc/S00_AXI]
+endgroup
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins ps8_0_axi_periph/M00_AXI]
+endgroup
+disconnect_bd_net /rst_ps8_0_299M_peripheral_aresetn [get_bd_pins rst_ps8_0_299M/peripheral_aresetn]
+startgroup
+make_bd_pins_external  [get_bd_pins rst_ps8_0_299M/peripheral_aresetn]
+endgroup
+connect_bd_net [get_bd_pins rst_ps8_0_299M/peripheral_aresetn] [get_bd_pins axi_smc/aresetn]
+disconnect_bd_net /zynq_ultra_ps_e_0_pl_clk2 [get_bd_pins zynq_ultra_ps_e_0/pl_clk2]
+startgroup
+make_bd_pins_external  [get_bd_pins zynq_ultra_ps_e_0/pl_clk2]
+endgroup
+connect_bd_net [get_bd_pins zynq_ultra_ps_e_0/pl_clk2] [get_bd_pins zynq_ultra_ps_e_0/maxihpm0_fpd_aclk]
+set_property name ap_clk [get_bd_ports pl_clk2_0]
+set_property name ap_rst_n [get_bd_ports peripheral_aresetn_0]
+set_property name S00_AXI [get_bd_intf_ports S00_AXI_0]
+set_property name M00_AXI [get_bd_intf_ports M00_AXI_0]
+regenerate_bd_layout
+save_bd_design
+Wrote  : <D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.srcs/sources_1/bd/procsys/procsys.bd> 
+Wrote  : <D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.srcs/sources_1/bd/procsys/ui/bd_22a2a737.ui> 
+generate_target all [get_files  D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.srcs/sources_1/bd/procsys/procsys.bd]
+CRITICAL WARNING: [BD 41-1356] Address block </M00_AXI/Reg> is not mapped into </zynq_ultra_ps_e_0/Data>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_LOW> is not mapped into </S00_AXI>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM> is not mapped into </S00_AXI>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [xilinx.com:ip:smartconnect:1.0-1] procsys_axi_smc_0: The device(s) attached to /S00_AXI do not share a common clock source with this smartconnect instance.   Re-customize this AXI SmartConnect instance to add a new clock pin and connect it to the same clock source of the IP attached to /S00_AXI to prevent futher clock DRC violations.
+CRITICAL WARNING: [BD 41-1356] Address block </M00_AXI/Reg> is not mapped into </zynq_ultra_ps_e_0/Data>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_LOW> is not mapped into </S00_AXI>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM> is not mapped into </S00_AXI>. Please use Address Editor to either map or exclude it.
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_ds/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_FPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_ds/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_FPD(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /axi_smc/M00_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /axi_smc/M00_AXI(0)
+Wrote  : <D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.srcs/sources_1/bd/procsys/procsys.bd> 
+VHDL Output written to : D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.srcs/sources_1/bd/procsys/synth/procsys.v
+VHDL Output written to : D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.srcs/sources_1/bd/procsys/sim/procsys.v
+VHDL Output written to : D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.srcs/sources_1/bd/procsys/hdl/procsys_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block zynq_ultra_ps_e_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps8_0_299M .
+Exporting to file d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.srcs/sources_1/bd/procsys/ip/procsys_axi_smc_0/bd_0/hw_handoff/procsys_axi_smc_0.hwh
+Generated Block Design Tcl file d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.srcs/sources_1/bd/procsys/ip/procsys_axi_smc_0/bd_0/hw_handoff/procsys_axi_smc_0_bd.tcl
+Generated Hardware Definition File d:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.srcs/sources_1/bd/procsys/ip/procsys_axi_smc_0/bd_0/synth/procsys_axi_smc_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_smc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.srcs/sources_1/bd/procsys/ip/procsys_auto_ds_0/procsys_auto_ds_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/s00_couplers/auto_ds .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.srcs/sources_1/bd/procsys/ip/procsys_auto_pc_0/procsys_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.srcs/sources_1/bd/procsys/hw_handoff/procsys.hwh
+Generated Block Design Tcl file D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.srcs/sources_1/bd/procsys/hw_handoff/procsys_bd.tcl
+Generated Hardware Definition File D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.srcs/sources_1/bd/procsys/synth/procsys.hwdef
+generate_target: Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 5643.246 ; gain = 0.000
+catch { config_ip_cache -export [get_ips -all procsys_auto_ds_0] }
+catch { config_ip_cache -export [get_ips -all procsys_auto_pc_0] }
+export_ip_user_files -of_objects [get_files D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.srcs/sources_1/bd/procsys/procsys.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.srcs/sources_1/bd/procsys/procsys.bd]
+launch_runs -jobs 4 {procsys_auto_ds_0_synth_1 procsys_auto_pc_0_synth_1}
+[Tue Dec 24 02:22:17 2019] Launched procsys_auto_ds_0_synth_1, procsys_auto_pc_0_synth_1...
+Run output will be captured here:
+procsys_auto_ds_0_synth_1: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.runs/procsys_auto_ds_0_synth_1/runme.log
+procsys_auto_pc_0_synth_1: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.runs/procsys_auto_pc_0_synth_1/runme.log
+export_simulation -of_objects [get_files D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.srcs/sources_1/bd/procsys/procsys.bd] -directory D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.ip_user_files/sim_scripts -ip_user_files_dir D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.ip_user_files -ipstatic_source_dir D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.cache/compile_simlib/modelsim} {questa=D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.cache/compile_simlib/questa} {riviera=D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.cache/compile_simlib/riviera} {activehdl=D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'BBJ_u96_cnvW2A2_0'...
+[Tue Dec 24 02:29:40 2019] Launched BBJ_u96_cnvW2A2_0_synth_1, synth_1...
+Run output will be captured here:
+BBJ_u96_cnvW2A2_0_synth_1: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.runs/BBJ_u96_cnvW2A2_0_synth_1/runme.log
+synth_1: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.runs/synth_1/runme.log
+[Tue Dec 24 02:29:40 2019] Launched impl_1...
+Run output will be captured here: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 5643.246 ; gain = 0.000
+archive_project D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW2A2-tested.xpr.zip -temp_dir C:/Users/Adam/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-14224-DESKTOP-RKNG8TM -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/Adam/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-14224-DESKTOP-RKNG8TM' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW2A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A2-ultra96'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/Adam/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-14224-DESKTOP-RKNG8TM/PrjAr/_X_'.
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'procsys_auto_ds_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'procsys_auto_pc_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'BBJ_u96_cnvW2A2_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-133] re-setting run 'procsys_auto_ds_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'procsys_auto_pc_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'BBJ_u96_cnvW2A2_0_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'BBJ_u96_cnvW2A2_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'BBJ_u96_cnvW2A2_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'procsys_auto_ds_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'procsys_auto_ds_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'procsys_auto_pc_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'procsys_auto_pc_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Coretcl 2-1210] Compressing project files and data...
+INFO: [Coretcl 2-228] (archive_project) Zip Compression - Archive aborted due to cancel operation
+archive_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:47 . Memory (MB): peak = 5643.246 ; gain = 0.000
+INFO: [Common 17-344] 'archive_project' was cancelled
+save_project_as cnvW2A2 D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW2A2 -force
+Wrote  : <D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW2A2/cnvW2A2.srcs/sources_1/bd/procsys/ui/bd_22a2a737.ui> 
+save_project_as: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 5643.246 ; gain = 0.000
+archive_project D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Wrapped/cnvW2A2-tested.xpr.zip -temp_dir C:/Users/Adam/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-14224-DESKTOP-RKNG8TM -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/Adam/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-14224-DESKTOP-RKNG8TM' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW1A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/cnvW2A2-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A1-ultra96'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/BNN-HLS-Outputs/lfcW1A2-ultra96'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/Adam/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-14224-DESKTOP-RKNG8TM/PrjAr/_X_'.
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'procsys_auto_ds_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'procsys_auto_pc_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'BBJ_u96_cnvW2A2_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-133] re-setting run 'procsys_auto_ds_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'procsys_auto_pc_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'BBJ_u96_cnvW2A2_0_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'BBJ_u96_cnvW2A2_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'BBJ_u96_cnvW2A2_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'procsys_auto_ds_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'procsys_auto_ds_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'procsys_auto_pc_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'procsys_auto_pc_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'

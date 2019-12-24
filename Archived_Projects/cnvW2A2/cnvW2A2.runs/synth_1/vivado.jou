@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Dec 24 02:40:46 2019
+# Process ID: 18664
+# Current directory: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.runs/synth_1
+# Command line: vivado.exe -log super_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source super_wrapper.tcl
+# Log file: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.runs/synth_1/super_wrapper.vds
+# Journal file: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/PreRecon/cnvW2A2/cnvW2A2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source super_wrapper.tcl -notrace
