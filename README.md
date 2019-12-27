@@ -20,7 +20,7 @@ Archived Vivado Projects: Use these if planning on doing any sort of design runs
 
 To use: copy the bitstreams into the .../ultra96/bitstreams/ folder and run the python example notebooks included from xilinx, access through browser, but can also be found in \home\xilinx\jupyter_notebooks\bnn
 
-Config Timings: Open the jupyter notebook in config_times with the ultra96 as the host with all the bnn stuff installed. It's already got the output of some runs I did, so it's probably best to make a copy if you plan on making changes/testing it yourself. Or save the output data somewhere before messing with it. 
+Config Timings: Open the jupyter notebook in config_times (with the ultra96 as the host with all the bnn stuff installed if you want to do more than read it). It's already got the output of some runs I did, so it's probably best to make a copy if you plan on making changes/testing it yourself. Or save the output data somewhere before messing with it. 
 
 ----------------
 
