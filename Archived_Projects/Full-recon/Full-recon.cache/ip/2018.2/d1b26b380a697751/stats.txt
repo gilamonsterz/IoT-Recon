@@ -1,0 +1,4 @@
+NumberHits:0
+Timestamp: Wed Dec 25 20:26:40 UTC 2019
+VLNV: xilinx.com:hls:lfcw1a2_BBox:1.0
+SynthRuntime: 877

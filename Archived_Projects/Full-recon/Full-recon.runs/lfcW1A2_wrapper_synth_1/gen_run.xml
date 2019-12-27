@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="lfcW1A2_wrapper_synth_1" LaunchPart="xczu3eg-sbva484-1-i" LaunchTime="1577308396">
+  <File Type="PA-TCL" Name="lfcW1A2_wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="lfcW1A2_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="lfcW1A2_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="lfcW1A2_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="lfcW1A2_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="lfcW1A2_wrapper.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/lfcW1A2_wrapper">
+    <File Path="$PSRCDIR/sources_1/ip/lfcw1a2_BBox_0/lfcw1a2_BBox_0.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.srcs/sources_1/ip/lfcw1a2_BBox_0/lfcw1a2_BBox_0.xci"/>
+        <Attr Name="ImportTime" Val="1577304701"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/lfcW1A2_wrapper/imports/imports/lfcW1A2_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/imports/lfcW1A2_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1577159291"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="lfcW1A2_wrapper"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/lfcW1A2_wrapper">
+    <File Path="$PSRCDIR/sources_1/ip/lfcw1a2_BBox_0/lfcw1a2_BBox_0.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.srcs/sources_1/ip/lfcw1a2_BBox_0/lfcw1a2_BBox_0.xci"/>
+        <Attr Name="ImportTime" Val="1577304701"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/lfcW1A2_wrapper/imports/imports/lfcW1A2_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/imports/lfcW1A2_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1577159291"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="lfcW1A2_wrapper"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Flow_PerfOptimized" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design">
+      <Option Id="ReTiming">1</Option>
+      <Option Id="FsmExtraction">1</Option>
+      <Option Id="ShregMinSize">5</Option>
+      <Option Id="NoCombineLuts">1</Option>
+      <Option Id="Directive">3</Option>
+      <Option Id="RepFanoutThreshold">400</Option>
+      <Option Id="ResourceSharing">2</Option>
+      <Option Id="KeepEquivalentRegisters">1</Option>
+    </Step>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,1355 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Dec 26 19:07:44 2019
+# Process ID: 4988
+# Current directory: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/child_0_impl_1
+# Command line: vivado.exe -log super_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source super_wrapper.tcl -notrace
+# Log file: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/child_0_impl_1/super_wrapper.vdi
+# Journal file: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/child_0_impl_1\vivado.jou
+#-----------------------------------------------------------
+source super_wrapper.tcl -notrace
+Command: link_design -top super_wrapper -part xczu3eg-sbva484-1-i -reconfig_partitions BLACKBOX_WRAPPER
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/cnvW1A1_wrapper_synth_1/cnvW1A1_wrapper.dcp' for cell 'BLACKBOX_WRAPPER'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.srcs/sources_1/ip/BBJ_u96_cnvW1A1_0/BBJ_u96_cnvW1A1_0.dcp' for cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0'
+INFO: [Netlist 29-17] Analyzing 2844 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-i
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/impl_1/super_wrapper_postroute_physopt_bb/super_wrapper_board.xdc]
+Finished Parsing XDC File [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/impl_1/super_wrapper_postroute_physopt_bb/super_wrapper_board.xdc]
+Parsing XDC File [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/impl_1/super_wrapper_postroute_physopt_bb/super_wrapper_early.xdc]
+Finished Parsing XDC File [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/impl_1/super_wrapper_postroute_physopt_bb/super_wrapper_early.xdc]
+Parsing XDC File [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/impl_1/super_wrapper_postroute_physopt_bb/super_wrapper.xdc]
+INFO: [Constraints 18-4422] SNAPPING_MODE is set so implementation will use the DERIVED_RANGES which may be different then the GRID_RANGES. [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.srcs/constrs_1/imports/imports/ultra96.xdc:36]
+WARNING: [Vivado 12-4775] These ranges will be aligned to a tile boundary: IOB_X0Y0:IOB_X1Y89 [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.srcs/constrs_1/imports/imports/ultra96.xdc:36]
+Finished Parsing XDC File [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/impl_1/super_wrapper_postroute_physopt_bb/super_wrapper.xdc]
+Parsing XDC File [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/impl_1/super_wrapper_postroute_physopt_bb/super_wrapper_late.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl:2]
+all_registers: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1722.664 ; gain = 190.109
+Finished Parsing XDC File [D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/impl_1/super_wrapper_postroute_physopt_bb/super_wrapper_late.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1734.980 ; gain = 12.316
+Restored from archive | CPU: 4.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1734.980 ; gain = 12.316
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'PROCSYS_WRAPPER/procsys_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1589 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD_DATA, DSP_PREADD): 24 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 2 instances
+  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 6 instances
+  RAM16X1S => RAM32X1S (RAMS32): 1456 instances
+  RAM32M16 => RAM32M16 (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 53 instances
+  RAM32X1S => RAM32X1S (RAMS32): 48 instances
+
+11 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:56 . Memory (MB): peak = 1739.086 ; gain = 853.801
+Command: opt_design -directive ExploreWithRemap
+INFO: [Vivado_Tcl 4-136] Directive used for opt_design is: ExploreWithRemap
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+Attempting to get a license: PartialReconfiguration
+Feature available: PartialReconfiguration
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1739.086 ; gain = 0.000
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 3535 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 2aa92b63c
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 1757.375 ; gain = 18.289
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 2 load pin(s).
+Phase 2 Constant propagation | Checksum: 2392274bf
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 1757.375 ; gain = 18.289
+INFO: [Opt 31-389] Phase Constant propagation created 5 cells and removed 189 cells
+
+Phase 3 BUFG optimization
+Phase 3 BUFG optimization | Checksum: 2392274bf
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 1757.375 ; gain = 18.289
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 4 Shift Register Optimization
+Phase 4 Shift Register Optimization | Checksum: 239234a17
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:35 . Memory (MB): peak = 1757.375 ; gain = 18.289
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 5 Sweep
+Phase 5 Sweep | Checksum: 1f5aadbbb
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:38 . Memory (MB): peak = 1757.375 ; gain = 18.289
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 2 cells
+
+Phase 6 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 6 Constant propagation | Checksum: 1f5aadbbb
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:40 . Memory (MB): peak = 1757.375 ; gain = 18.289
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 7 Sweep
+Phase 7 Sweep | Checksum: 1f5aadbbb
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:43 . Memory (MB): peak = 1757.375 ; gain = 18.289
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 8 Remap
+Phase 8 Remap | Checksum: 24ba246ff
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:54 . Memory (MB): peak = 1757.375 ; gain = 18.289
+INFO: [Opt 31-389] Phase Remap created 4521 cells and removed 4523 cells
+
+Phase 9 Post Processing Netlist
+Phase 9 Post Processing Netlist | Checksum: 196f755f2
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:55 . Memory (MB): peak = 1757.375 ; gain = 18.289
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.211 . Memory (MB): peak = 1757.375 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1f33b0d06
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:01:00 . Memory (MB): peak = 1757.375 ; gain = 18.289
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 1f33b0d06
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1757.375 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+31 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:50 ; elapsed = 00:01:05 . Memory (MB): peak = 1757.375 ; gain = 18.289
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1757.375 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/child_0_impl_1/super_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1757.375 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file super_wrapper_drc_opted.rpt -pb super_wrapper_drc_opted.pb -rpx super_wrapper_drc_opted.rpx
+Command: report_drc -file super_wrapper_drc_opted.rpt -pb super_wrapper_drc_opted.pb -rpx super_wrapper_drc_opted.rpx
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/child_0_impl_1/super_wrapper_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:34 ; elapsed = 00:00:33 . Memory (MB): peak = 2642.836 ; gain = 885.461
+Command: place_design -directive ExtraTimingOpt
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 46-5] The placer was invoked with the 'ExtraTimingOpt' directive.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.190 . Memory (MB): peak = 2811.488 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 11213ebe3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.376 . Memory (MB): peak = 2811.488 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.128 . Memory (MB): peak = 2811.488 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 143bfe234
+
+Time (s): cpu = 00:01:52 ; elapsed = 00:02:14 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 1a7544912
+
+Time (s): cpu = 00:02:25 ; elapsed = 00:02:56 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1a7544912
+
+Time (s): cpu = 00:02:25 ; elapsed = 00:02:57 . Memory (MB): peak = 3613.414 ; gain = 801.926
+Phase 1 Placer Initialization | Checksum: 1a7544912
+
+Time (s): cpu = 00:02:26 ; elapsed = 00:02:57 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 1aa9fd653
+
+Time (s): cpu = 00:02:34 ; elapsed = 00:03:08 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 2.2 Physical Synthesis In Placer
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-64] No nets found for fanout-optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-117] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/ram_reg_bram_2_2[0] could not be optimized because driver BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/ram_reg_bram_2_i_1__2 could not be replicated
+INFO: [Physopt 32-117] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/ram_reg_bram_2_0[0] could not be optimized because driver BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/ram_reg_bram_2_i_1__0 could not be replicated
+INFO: [Physopt 32-117] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/weights5_m_weights_V_ce0 could not be optimized because driver BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/ram_reg_0_15_i_1 could not be replicated
+INFO: [Physopt 32-117] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/ram_reg_0_1_0 could not be optimized because driver BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/ram_reg_0_0_i_1__1 could not be replicated
+INFO: [Physopt 32-117] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/weights4_m_weights_V_ce0 could not be optimized because driver BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/ram_reg_bram_1_i_2__0 could not be replicated
+INFO: [Physopt 32-117] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/weights7_m_weights_V_ce0 could not be optimized because driver BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/ram_reg_0_0_i_1 could not be replicated
+INFO: [Physopt 32-68] No nets found for critical-cell optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.197 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+|  Optimization       |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------
+|  Very High Fanout   |            0  |              0  |                     0  |           0  |           1  |  00:00:01  |
+|  Fanout             |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Critical Cell      |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total              |            0  |              0  |                     0  |           0  |           3  |  00:00:01  |
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.2 Physical Synthesis In Placer | Checksum: 14335b3c7
+
+Time (s): cpu = 00:03:56 ; elapsed = 00:05:07 . Memory (MB): peak = 3613.414 ; gain = 801.926
+Phase 2 Global Placement | Checksum: cd82a172
+
+Time (s): cpu = 00:04:00 ; elapsed = 00:05:18 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: cd82a172
+
+Time (s): cpu = 00:04:00 ; elapsed = 00:05:18 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: d61de363
+
+Time (s): cpu = 00:04:13 ; elapsed = 00:05:35 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 957b3b25
+
+Time (s): cpu = 00:04:14 ; elapsed = 00:05:36 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 957b3b25
+
+Time (s): cpu = 00:04:14 ; elapsed = 00:05:37 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 3.5 IO Cut Optimizer
+Phase 3.5 IO Cut Optimizer | Checksum: 1081b40fb
+
+Time (s): cpu = 00:04:15 ; elapsed = 00:05:38 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 3.6 Timing Path Optimizer
+Phase 3.6 Timing Path Optimizer | Checksum: 1081b40fb
+
+Time (s): cpu = 00:04:15 ; elapsed = 00:05:38 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 3.7 Fast Optimization
+Phase 3.7 Fast Optimization | Checksum: b7697930
+
+Time (s): cpu = 00:04:17 ; elapsed = 00:05:40 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 3.8 Small Shape Clustering
+Phase 3.8 Small Shape Clustering | Checksum: fa53d034
+
+Time (s): cpu = 00:04:24 ; elapsed = 00:05:53 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 3.9 DP Optimization
+Phase 3.9 DP Optimization | Checksum: 1031df6f3
+
+Time (s): cpu = 00:04:53 ; elapsed = 00:06:24 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 3.10 Flow Legalize Slice Clusters
+Phase 3.10 Flow Legalize Slice Clusters | Checksum: 1c1294d8d
+
+Time (s): cpu = 00:04:54 ; elapsed = 00:06:27 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 3.11 Slice Area Swap
+Phase 3.11 Slice Area Swap | Checksum: 1b1210051
+
+Time (s): cpu = 00:05:00 ; elapsed = 00:06:36 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 3.12 Commit Slice Clusters
+Phase 3.12 Commit Slice Clusters | Checksum: 125b076df
+
+Time (s): cpu = 00:05:26 ; elapsed = 00:06:56 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 3.13 Place Remaining
+Phase 3.13 Place Remaining | Checksum: 1562c8db0
+
+Time (s): cpu = 00:05:27 ; elapsed = 00:06:57 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 3.14 Re-assign LUT pins
+Phase 3.14 Re-assign LUT pins | Checksum: 96196698
+
+Time (s): cpu = 00:05:32 ; elapsed = 00:07:09 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 3.15 Pipeline Register Optimization
+Phase 3.15 Pipeline Register Optimization | Checksum: 96196698
+
+Time (s): cpu = 00:05:33 ; elapsed = 00:07:10 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 3.16 Fast Optimization
+Phase 3.16 Fast Optimization | Checksum: 96196698
+
+Time (s): cpu = 00:06:45 ; elapsed = 00:08:34 . Memory (MB): peak = 3613.414 ; gain = 801.926
+Phase 3 Detail Placement | Checksum: 96196698
+
+Time (s): cpu = 00:06:45 ; elapsed = 00:08:36 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 135293503
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Place 46-33] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/grp_DoCompute_fu_466/Matrix_Vector_Activa_U0/ap_block_pp0_stage0_subdone4_in, BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-33] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/grp_DoCompute_fu_466/Matrix_Vector_Activa_1_U0/ap_block_pp0_stage0_subdone5_in, BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-33] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/grp_DoCompute_fu_466/Matrix_Vector_Activa_8_U0/ap_block_pp0_stage0_subdone5_in, BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-31] BUFG insertion identified 3 candidate nets, 0 success, 3 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: 135293503
+
+Time (s): cpu = 00:07:42 ; elapsed = 00:09:49 . Memory (MB): peak = 3613.414 ; gain = 801.926
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-0.503. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 14fb67f6c
+
+Time (s): cpu = 00:14:22 ; elapsed = 00:19:44 . Memory (MB): peak = 3613.414 ; gain = 801.926
+Phase 4.1 Post Commit Optimization | Checksum: 14fb67f6c
+
+Time (s): cpu = 00:14:22 ; elapsed = 00:19:44 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 14fb67f6c
+
+Time (s): cpu = 00:14:35 ; elapsed = 00:19:59 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 20bee609b
+
+Time (s): cpu = 00:14:48 ; elapsed = 00:20:15 . Memory (MB): peak = 3613.414 ; gain = 801.926
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 2770db424
+
+Time (s): cpu = 00:14:49 ; elapsed = 00:20:16 . Memory (MB): peak = 3613.414 ; gain = 801.926
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 2770db424
+
+Time (s): cpu = 00:14:49 ; elapsed = 00:20:17 . Memory (MB): peak = 3613.414 ; gain = 801.926
+Ending Placer Task | Checksum: 21cd5b799
+
+Time (s): cpu = 00:14:50 ; elapsed = 00:20:17 . Memory (MB): peak = 3613.414 ; gain = 801.926
+INFO: [Common 17-83] Releasing license: Implementation
+70 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:15:06 ; elapsed = 00:20:36 . Memory (MB): peak = 3613.414 ; gain = 970.578
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 3613.414 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/child_0_impl_1/super_wrapper_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:22 ; elapsed = 00:00:21 . Memory (MB): peak = 3613.414 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_io -file super_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.122 . Memory (MB): peak = 3613.414 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file super_wrapper_utilization_placed.rpt -pb super_wrapper_utilization_placed.pb
+report_utilization: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 3613.414 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file super_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.564 . Memory (MB): peak = 3613.414 ; gain = 0.000
+Command: phys_opt_design -directive AggressiveExplore
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Vivado_Tcl 4-137] Directive used for phys_opt_design is: AggressiveExplore
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.169 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-245] Routed nets are present in the design. phys_opt_design will optimize unrouted part of the design.
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.503 | TNS=-2.807 |
+Phase 1 Physical Synthesis Initialization | Checksum: 1b1800439
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:43 . Memory (MB): peak = 3613.414 ; gain = 0.000
+INFO: [Physopt 32-245] Routed nets are present in the design. phys_opt_design will optimize unrouted part of the design.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.503 | TNS=-2.807 |
+
+Phase 2 Fanout Optimization
+INFO: [Physopt 32-64] No nets found for fanout-optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 2 Fanout Optimization | Checksum: 1b1800439
+
+Time (s): cpu = 00:00:54 ; elapsed = 00:00:47 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 3 Placement Based Optimization
+INFO: [Physopt 32-660] Identified 9 candidate nets for placement-based optimization.
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg01_out[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/val_V[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg[1]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer0[3].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[3]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/targetLayer[3].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer_reg[3]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start3_out.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_2
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/ap_start.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_reg
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[23]_fret_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[23]_fret_i_1
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer_reg[23]_fret_n_10.  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer_reg[23]_fret
+INFO: [Physopt 32-661] Optimized 1 net.  Re-placed 1 instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 1 net or cell. Created 0 new cell, deleted 0 existing cell and moved 1 existing cell
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.503 | TNS=-2.805 |
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.161 . Memory (MB): peak = 3613.414 ; gain = 0.000
+Phase 3 Placement Based Optimization | Checksum: 14130a391
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:55 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 4 MultiInst Placement Optimization
+INFO: [Physopt 32-660] Identified 7 candidate nets for placement-based optimization.
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg01_out[1].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer0[3].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[3]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start3_out.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_2/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1/O
+INFO: [Physopt 32-661] Optimized 1 net.  Re-placed 2 instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 1 net or cell. Created 0 new cell, deleted 0 existing cell and moved 2 existing cells
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.471 | TNS=-2.773 |
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.187 . Memory (MB): peak = 3613.414 ; gain = 0.000
+Phase 4 MultiInst Placement Optimization | Checksum: 1f4d50d30
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:01:01 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 5 Rewire
+INFO: [Physopt 32-246] Starting Signal Push optimization...
+INFO: [Physopt 32-241] No nets found for rewiring () optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.170 . Memory (MB): peak = 3613.414 ; gain = 0.000
+Phase 5 Rewire | Checksum: 1f4d50d30
+
+Time (s): cpu = 00:01:04 ; elapsed = 00:01:02 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 6 Critical Cell Optimization
+INFO: [Physopt 32-68] No nets found for critical-cell optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 6 Critical Cell Optimization | Checksum: 1f4d50d30
+
+Time (s): cpu = 00:01:04 ; elapsed = 00:01:02 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 7 Fanout Optimization
+INFO: [Physopt 32-76] Pass 1. Identified 1 candidate net for fanout optimization.
+INFO: [Physopt 32-81] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[31]_i_1_n_10. Replicated 1 times.
+INFO: [Physopt 32-232] Optimized 1 net. Created 1 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 1 net or cell. Created 1 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.471 | TNS=-2.773 |
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.186 . Memory (MB): peak = 3613.414 ; gain = 0.000
+Phase 7 Fanout Optimization | Checksum: 155d18592
+
+Time (s): cpu = 00:01:05 ; elapsed = 00:01:03 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 8 Placement Based Optimization
+INFO: [Physopt 32-660] Identified 20 candidate nets for placement-based optimization.
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg01_out[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/val_V[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg[1]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer0[3].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[3]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/targetLayer[3].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer_reg[3]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start3_out.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_2
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/ap_start.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_reg
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[23]_fret_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[23]_fret_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer_reg[23]_fret_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer_reg[23]_fret
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer0[21].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[21]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V[33]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/in_V[30].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg[33]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_out_V_reg0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_out_V[33]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/out_V[30].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_out_V_reg[33]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg06_out[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V[1]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg_n_10_[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg[1]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_numReps0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_numReps[1]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[1]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/targetLayer[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer_reg[1]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/numReps[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_numReps_reg[1]
+INFO: [Physopt 32-661] Optimized 1 net.  Re-placed 1 instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 1 net or cell. Created 0 new cell, deleted 0 existing cell and moved 1 existing cell
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.471 | TNS=-2.823 |
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.249 . Memory (MB): peak = 3613.414 ; gain = 0.000
+Phase 8 Placement Based Optimization | Checksum: 104494d1f
+
+Time (s): cpu = 00:01:14 ; elapsed = 00:01:17 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 9 MultiInst Placement Optimization
+INFO: [Physopt 32-660] Identified 20 candidate nets for placement-based optimization.
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg01_out[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_i_1/O
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer0[3].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[3]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start3_out.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_2/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[23]_fret_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[23]_fret_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V[33]_i_1/O
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_out_V_reg0[1].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_out_V[33]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer0[21].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[21]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg06_out[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V[1]_i_1/O
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_numReps0[1].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_numReps[1]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[1]_i_1/O
+INFO: [Physopt 32-661] Optimized 3 nets.  Re-placed 6 instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 3 nets or cells. Created 0 new cell, deleted 0 existing cell and moved 6 existing cells
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.471 | TNS=-2.591 |
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.287 . Memory (MB): peak = 3613.414 ; gain = 0.000
+Phase 9 MultiInst Placement Optimization | Checksum: 15cd399c7
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:46 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 10 Rewire
+INFO: [Physopt 32-246] Starting Signal Push optimization...
+INFO: [Physopt 32-241] No nets found for rewiring () optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.263 . Memory (MB): peak = 3613.414 ; gain = 0.000
+Phase 10 Rewire | Checksum: 15cd399c7
+
+Time (s): cpu = 00:01:29 ; elapsed = 00:01:46 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 11 Critical Cell Optimization
+INFO: [Physopt 32-68] No nets found for critical-cell optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 11 Critical Cell Optimization | Checksum: 15cd399c7
+
+Time (s): cpu = 00:01:29 ; elapsed = 00:01:47 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 12 Slr Crossing Optimization
+Phase 12 Slr Crossing Optimization | Checksum: 15cd399c7
+
+Time (s): cpu = 00:01:29 ; elapsed = 00:01:47 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 13 Fanout Optimization
+INFO: [Physopt 32-64] No nets found for fanout-optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 13 Fanout Optimization | Checksum: 15cd399c7
+
+Time (s): cpu = 00:01:30 ; elapsed = 00:01:48 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 14 Placement Based Optimization
+INFO: [Physopt 32-660] Identified 14 candidate nets for placement-based optimization.
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg01_out[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/val_V[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg[1]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start3_out.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_2
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/ap_start.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_reg
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[23]_fret_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[23]_fret_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer_reg[23]_fret_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer_reg[23]_fret
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V[33]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/in_V[30].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg[33]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer0[21].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[21]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg06_out[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V[1]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg_n_10_[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg[1]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[1]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/targetLayer[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer_reg[1]
+INFO: [Physopt 32-661] Optimized 1 net.  Re-placed 1 instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 1 net or cell. Created 0 new cell, deleted 0 existing cell and moved 1 existing cell
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.471 | TNS=-2.639 |
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.288 . Memory (MB): peak = 3613.414 ; gain = 0.000
+Phase 14 Placement Based Optimization | Checksum: 1c722ac9c
+
+Time (s): cpu = 00:01:36 ; elapsed = 00:02:06 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 15 MultiInst Placement Optimization
+INFO: [Physopt 32-660] Identified 13 candidate nets for placement-based optimization.
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg01_out[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start3_out.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_2/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[23]_fret_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[23]_fret_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V[33]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg06_out[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V[1]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[1]_i_1/O
+INFO: [Physopt 32-661] Optimized 0 net.  Re-placed 0 instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.253 . Memory (MB): peak = 3613.414 ; gain = 0.000
+Phase 15 MultiInst Placement Optimization | Checksum: 12497c5f7
+
+Time (s): cpu = 00:01:44 ; elapsed = 00:02:29 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 16 Rewire
+INFO: [Physopt 32-246] Starting Signal Push optimization...
+INFO: [Physopt 32-241] No nets found for rewiring () optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.221 . Memory (MB): peak = 3613.414 ; gain = 0.000
+Phase 16 Rewire | Checksum: 12497c5f7
+
+Time (s): cpu = 00:01:45 ; elapsed = 00:02:30 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 17 Critical Cell Optimization
+INFO: [Physopt 32-68] No nets found for critical-cell optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 17 Critical Cell Optimization | Checksum: 12497c5f7
+
+Time (s): cpu = 00:01:45 ; elapsed = 00:02:30 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 18 DSP Register Optimization
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 18 DSP Register Optimization | Checksum: 12497c5f7
+
+Time (s): cpu = 00:01:45 ; elapsed = 00:02:30 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 19 BRAM Register Optimization
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/threshs4_m_threshold_1_U/BBJ_u96_cnvW1A1_tebO_ram_U/ram_reg_bram_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/threshs4_m_threshold_2_U/BBJ_u96_cnvW1A1_tebO_ram_U/ram_reg_bram_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/threshs4_m_threshold_3_U/BBJ_u96_cnvW1A1_tebO_ram_U/ram_reg_bram_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/threshs4_m_threshold_U/BBJ_u96_cnvW1A1_tebO_ram_U/ram_reg_bram_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/threshs5_m_threshold_U/BBJ_u96_cnvW1A1_tbom_ram_U/ram_reg_bram_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/threshs6_m_threshold_U/BBJ_u96_cnvW1A1_tbqm_ram_U/ram_reg_bram_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/threshs7_m_threshold_U/BBJ_u96_cnvW1A1_tbqm_ram_U/ram_reg_bram_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights4_m_weights_V_1_U/BBJ_u96_cnvW1A1_wcLz_ram_U/ram_reg_bram_2' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights4_m_weights_V_1_U/BBJ_u96_cnvW1A1_wcLz_ram_U/ram_reg_bram_3' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights4_m_weights_V_2_U/BBJ_u96_cnvW1A1_wcLz_ram_U/ram_reg_bram_2' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights4_m_weights_V_2_U/BBJ_u96_cnvW1A1_wcLz_ram_U/ram_reg_bram_3' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights4_m_weights_V_3_U/BBJ_u96_cnvW1A1_wcLz_ram_U/ram_reg_bram_2' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights4_m_weights_V_3_U/BBJ_u96_cnvW1A1_wcLz_ram_U/ram_reg_bram_3' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights4_m_weights_V_U/BBJ_u96_cnvW1A1_wcLz_ram_U/ram_reg_bram_2' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights4_m_weights_V_U/BBJ_u96_cnvW1A1_wcLz_ram_U/ram_reg_bram_3' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_1' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_10' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_11' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_12' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_13' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_14' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_15' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_16' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_17' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_18' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_19' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_2' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_20' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_21' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_22' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_23' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_24' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_25' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_26' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_27' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_28' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_29' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_3' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_30' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_31' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_4' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_5' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_6' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_7' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_8' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_9' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights6_m_weights_V_U/BBJ_u96_cnvW1A1_wbpm_ram_U/ram_reg_0_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights6_m_weights_V_U/BBJ_u96_cnvW1A1_wbpm_ram_U/ram_reg_0_1' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights6_m_weights_V_U/BBJ_u96_cnvW1A1_wbpm_ram_U/ram_reg_0_2' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights6_m_weights_V_U/BBJ_u96_cnvW1A1_wbpm_ram_U/ram_reg_0_3' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights7_m_weights_V_U/BBJ_u96_cnvW1A1_wbrm_ram_U/ram_reg_0_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights7_m_weights_V_U/BBJ_u96_cnvW1A1_wbrm_ram_U/ram_reg_0_1' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights7_m_weights_V_U/BBJ_u96_cnvW1A1_wbrm_ram_U/ram_reg_0_2' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights7_m_weights_V_U/BBJ_u96_cnvW1A1_wbrm_ram_U/ram_reg_0_3' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights7_m_weights_V_U/BBJ_u96_cnvW1A1_wbrm_ram_U/ram_reg_0_4' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights7_m_weights_V_U/BBJ_u96_cnvW1A1_wbrm_ram_U/ram_reg_0_5' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights7_m_weights_V_U/BBJ_u96_cnvW1A1_wbrm_ram_U/ram_reg_0_6' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights7_m_weights_V_U/BBJ_u96_cnvW1A1_wbrm_ram_U/ram_reg_0_7' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights8_m_weights_V_1_U/BBJ_u96_cnvW1A1_wcPA_ram_U/ram_reg_bram_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights8_m_weights_V_2_U/BBJ_u96_cnvW1A1_wcPA_ram_U/ram_reg_bram_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights8_m_weights_V_3_U/BBJ_u96_cnvW1A1_wcPA_ram_U/ram_reg_bram_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights8_m_weights_V_U/BBJ_u96_cnvW1A1_wcPA_ram_U/ram_reg_bram_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 19 BRAM Register Optimization | Checksum: 12497c5f7
+
+Time (s): cpu = 00:01:45 ; elapsed = 00:02:31 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 20 URAM Register Optimization
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 20 URAM Register Optimization | Checksum: 12497c5f7
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:02:31 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 21 Shift Register Optimization
+INFO: [Physopt 32-677] No candidate cells for Shift Register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 21 Shift Register Optimization | Checksum: 12497c5f7
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:02:31 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 22 DSP Register Optimization
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 22 DSP Register Optimization | Checksum: 12497c5f7
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:02:31 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 23 BRAM Register Optimization
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/threshs4_m_threshold_1_U/BBJ_u96_cnvW1A1_tebO_ram_U/ram_reg_bram_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/threshs4_m_threshold_2_U/BBJ_u96_cnvW1A1_tebO_ram_U/ram_reg_bram_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/threshs4_m_threshold_3_U/BBJ_u96_cnvW1A1_tebO_ram_U/ram_reg_bram_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/threshs4_m_threshold_U/BBJ_u96_cnvW1A1_tebO_ram_U/ram_reg_bram_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/threshs5_m_threshold_U/BBJ_u96_cnvW1A1_tbom_ram_U/ram_reg_bram_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/threshs6_m_threshold_U/BBJ_u96_cnvW1A1_tbqm_ram_U/ram_reg_bram_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/threshs7_m_threshold_U/BBJ_u96_cnvW1A1_tbqm_ram_U/ram_reg_bram_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights4_m_weights_V_1_U/BBJ_u96_cnvW1A1_wcLz_ram_U/ram_reg_bram_2' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights4_m_weights_V_1_U/BBJ_u96_cnvW1A1_wcLz_ram_U/ram_reg_bram_3' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights4_m_weights_V_2_U/BBJ_u96_cnvW1A1_wcLz_ram_U/ram_reg_bram_2' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights4_m_weights_V_2_U/BBJ_u96_cnvW1A1_wcLz_ram_U/ram_reg_bram_3' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights4_m_weights_V_3_U/BBJ_u96_cnvW1A1_wcLz_ram_U/ram_reg_bram_2' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights4_m_weights_V_3_U/BBJ_u96_cnvW1A1_wcLz_ram_U/ram_reg_bram_3' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights4_m_weights_V_U/BBJ_u96_cnvW1A1_wcLz_ram_U/ram_reg_bram_2' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights4_m_weights_V_U/BBJ_u96_cnvW1A1_wcLz_ram_U/ram_reg_bram_3' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_0' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_1' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_10' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_11' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_12' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_13' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_14' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_15' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_16' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_17' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_18' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_19' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_2' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_20' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_21' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_22' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_23' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_24' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_25' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_26' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_27' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Physopt 32-614] Property 'READ_WIDTH_B' on BRAM cell 'BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/weights5_m_weights_V_U/BBJ_u96_cnvW1A1_wbnm_ram_U/ram_reg_0_28' Port 'B' is 0. Skip BRAM Register Optimization on the port
+INFO: [Common 17-14] Message 'Physopt 32-614' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 23 BRAM Register Optimization | Checksum: 12497c5f7
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:02:32 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 24 URAM Register Optimization
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 24 URAM Register Optimization | Checksum: 12497c5f7
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:02:32 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 25 Shift Register Optimization
+INFO: [Physopt 32-677] No candidate cells for Shift Register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 25 Shift Register Optimization | Checksum: 12497c5f7
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:02:33 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 26 Critical Pin Optimization
+INFO: [Physopt 32-606] Identified 1 candidate net for critical-pin optimization.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 13 pins.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 1 net or cell. Created 0 new cell, deleted 0 existing cell and moved 13 existing cells
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.408 | TNS=-2.576 |
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.198 . Memory (MB): peak = 3613.414 ; gain = 0.000
+Phase 26 Critical Pin Optimization | Checksum: 12497c5f7
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:02:39 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 27 Very High Fanout Optimization
+INFO: [Physopt 32-76] Pass 1. Identified 32 candidate nets for fanout optimization.
+INFO: [Physopt 32-81] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/grp_DoCompute_fu_466/Matrix_Vector_Activa_8_U0/ap_block_pp0_stage0_subdone5_in. Replicated 4 times.
+INFO: [Physopt 32-81] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/grp_DoCompute_fu_466/Matrix_Vector_Activa_U0/ap_block_pp0_stage0_subdone4_in. Replicated 8 times.
+INFO: [Physopt 32-572] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/grp_DoCompute_fu_466/Matrix_Vector_Activa_1_U0/ap_block_pp0_stage0_subdone5_in was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-572] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/threshs1_m_threshold_31_address0 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-572] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/grp_DoCompute_fu_466/Matrix_Vector_Activa_U0/q0_reg[15][0] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-572] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/grp_DoCompute_fu_466/Matrix_Vector_Activa_U0/threshs1_m_threshold_33_reg_408740 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-572] Net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/grp_DoCompute_fu_466/Matrix_Vector_Activa_U0/accu_0_V_5_fu_2720 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-232] Optimized 2 nets. Created 12 new instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 2 nets or cells. Created 12 new cells, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.408 | TNS=-2.576 |
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.393 . Memory (MB): peak = 3613.414 ; gain = 0.000
+Phase 27 Very High Fanout Optimization | Checksum: 17d20f1e7
+
+Time (s): cpu = 00:02:10 ; elapsed = 00:03:03 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 28 Placement Based Optimization
+INFO: [Physopt 32-660] Identified 53 candidate nets for placement-based optimization.
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg01_out[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/val_V[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg[1]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start3_out.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_2
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/ap_start.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_reg
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[23]_fret_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[23]_fret_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer_reg[23]_fret_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer_reg[23]_fret
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V[33]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/in_V[30].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg[33]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg06_out[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V[1]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg_n_10_[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg[1]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[1]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/targetLayer[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer_reg[1]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_rep_i_1__1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_rep_i_1__1
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_rep_i_1_n_10.  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_rep_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/DINADIN[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg[1]_rep
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/ram_reg_bram_1_5[0].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg[1]_rep__1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_out_V_reg0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_out_V[33]_i_1
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/out_V[30].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_out_V_reg[33]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer0[21].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[21]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer0[22].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[22]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetInd0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetInd[1]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/targetInd[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetInd_reg[1]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/targetLayer[21].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer_reg[21]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_numReps0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_numReps[1]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_out_V_reg03_out[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_out_V[1]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/numReps[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_numReps_reg[1]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_out_V_reg_n_10_[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_out_V_reg[1]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[33]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg_n_10_[33].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg[33]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetMem0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetMem[1]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/targetMem[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetMem_reg[1]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[17]_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[17]_i_1_LOPT_REMAP_5
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/xlnx_opt_rdata[17]_i_1_n_10_1.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[17]_i_1_LOPT_REMAP_3
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/xlnx_opt_rdata[17]_i_1_n_10_4.  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[17]_i_1_LOPT_REMAP
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/s_axi_control_RDATA[17].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata_reg[17]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[11]_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[11]_i_1_LOPT_REMAP_5
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/xlnx_opt_rdata[11]_i_1_n_10_1.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[11]_i_1_LOPT_REMAP_3
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/xlnx_opt_rdata[11]_i_1_n_10_4.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[11]_i_1_LOPT_REMAP
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/s_axi_control_RDATA[11].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata_reg[11]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer0[3].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[3]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/targetLayer[3].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer_reg[3]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_isr[1]_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_isr[1]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[14]_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[14]_i_1_LOPT_REMAP_5
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/xlnx_opt_rdata[14]_i_1_n_10_1.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[14]_i_1_LOPT_REMAP_3
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/xlnx_opt_rdata[14]_i_1_n_10_4.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[14]_i_1_LOPT_REMAP
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/p_1_in.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_isr_reg[1]
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/s_axi_control_RDATA[14].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata_reg[14]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetThresh0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetThresh[1]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetThresh_reg_n_10_[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetThresh_reg[1]
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_rep_i_1__0_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_rep_i_1__0
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/ram_reg_66[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg[1]_rep__0
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer0[20].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[20]_i_1
+INFO: [Physopt 32-661] Optimized 6 nets.  Re-placed 6 instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 6 nets or cells. Created 0 new cell, deleted 0 existing cell and moved 6 existing cells
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.408 | TNS=-2.408 |
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.178 . Memory (MB): peak = 3613.414 ; gain = 0.000
+Phase 28 Placement Based Optimization | Checksum: 1e8aa772a
+
+Time (s): cpu = 00:02:28 ; elapsed = 00:03:30 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 29 MultiInst Placement Optimization
+INFO: [Physopt 32-660] Identified 52 candidate nets for placement-based optimization.
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg01_out[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start3_out.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_2/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[23]_fret_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[23]_fret_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V[33]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg06_out[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V[1]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[1]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_rep_i_1__1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_rep_i_1__1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer0[21].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[21]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_out_V_reg0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_out_V[33]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer0[22].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[22]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetInd0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetInd[1]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_numReps0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_numReps[1]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_out_V_reg03_out[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_out_V[1]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[33]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetMem0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetMem[1]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[11]_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[11]_i_1_LOPT_REMAP_5/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/xlnx_opt_rdata[11]_i_1_n_10_1.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[11]_i_1_LOPT_REMAP_3/O
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/xlnx_opt_rdata[11]_i_1_n_10_4.  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[11]_i_1_LOPT_REMAP/O
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer0[3].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[3]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_isr[1]_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_isr[1]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetThresh0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetThresh[1]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[14]_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[14]_i_1_LOPT_REMAP_5/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/xlnx_opt_rdata[14]_i_1_n_10_1.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[14]_i_1_LOPT_REMAP_3/O
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/xlnx_opt_rdata[14]_i_1_n_10_4.  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[14]_i_1_LOPT_REMAP/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_rep_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_rep_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_rep_i_1__0_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_rep_i_1__0/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer0[20].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[20]_i_1/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[17]_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[17]_i_1_LOPT_REMAP_5/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/xlnx_opt_rdata[17]_i_1_n_10_1.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[17]_i_1_LOPT_REMAP_3/O
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/xlnx_opt_rdata[17]_i_1_n_10_4.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/rdata[17]_i_1_LOPT_REMAP/O
+INFO: [Physopt 32-661] Optimized 3 nets.  Re-placed 6 instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 3 nets or cells. Created 0 new cell, deleted 0 existing cell and moved 6 existing cells
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.408 | TNS=-2.311 |
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.186 . Memory (MB): peak = 3613.414 ; gain = 0.000
+Phase 29 MultiInst Placement Optimization | Checksum: 1e4ef4d43
+
+Time (s): cpu = 00:02:58 ; elapsed = 00:04:14 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 30 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.408 | TNS=-2.311 |
+INFO: [Physopt 32-702] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/val_V[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg01_out[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_i_1/O
+INFO: [Physopt 32-702] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg01_out[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/val_V[1].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg[1]
+INFO: [Physopt 32-735] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/val_V[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.211 | TNS=-2.750 |
+INFO: [Physopt 32-702] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/p_1_in. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_isr[1]_i_1_n_10.  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_isr[1]_i_1/O
+INFO: [Physopt 32-735] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_isr[1]_i_1_n_10. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.201 | TNS=-2.712 |
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/val_V[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg[1]
+INFO: [Physopt 32-702] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/val_V[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg01_out[1].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_i_1
+INFO: [Physopt 32-735] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg01_out[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.195 | TNS=-2.686 |
+INFO: [Physopt 32-702] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/ap_start. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start3_out.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_2
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start3_out.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_2/O
+INFO: [Physopt 32-735] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start3_out. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.192 | TNS=-2.625 |
+INFO: [Physopt 32-702] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/in_V[30]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg0[1].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V[33]_i_1/O
+INFO: [Physopt 32-735] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg0[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.189 | TNS=-2.622 |
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg0[1].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V[33]_i_1
+INFO: [Physopt 32-735] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg0[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.181 | TNS=-2.558 |
+INFO: [Physopt 32-702] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/ram_reg_bram_1_5[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_rep_i_1__1_n_10.  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_rep_i_1__1/O
+INFO: [Physopt 32-735] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_rep_i_1__1_n_10. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.180 | TNS=-2.435 |
+INFO: [Physopt 32-702] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/targetInd[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetInd0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetInd[1]_i_1/O
+INFO: [Physopt 32-735] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetInd0[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.175 | TNS=-2.321 |
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/targetMem[1].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetMem_reg[1]
+INFO: [Physopt 32-735] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/targetMem[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.175 | TNS=-2.319 |
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg01_out[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg01_out[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_i_1/O
+INFO: [Physopt 32-735] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V_reg01_out[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.173 | TNS=-2.200 |
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_isr[1]_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_isr[1]_i_1/O
+INFO: [Physopt 32-735] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_isr[1]_i_1_n_10. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.173 | TNS=-2.077 |
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/targetMem[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetMem_reg[1]
+INFO: [Physopt 32-702] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/targetMem[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetMem0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetMem[1]_i_1
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetMem0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetMem[1]_i_1/O
+INFO: [Physopt 32-735] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetMem0[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.164 | TNS=-2.017 |
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg_n_10_[1].  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg[1]
+INFO: [Physopt 32-735] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg_n_10_[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.141 | TNS=-1.918 |
+INFO: [Physopt 32-702] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer_reg[23]_fret_n_10. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[23]_fret_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[23]_fret_i_1/O
+INFO: [Physopt 32-735] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[23]_fret_i_1_n_10. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.139 | TNS=-1.916 |
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[23]_fret_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[23]_fret_i_1/O
+INFO: [Physopt 32-735] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_targetLayer[23]_fret_i_1_n_10. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.134 | TNS=-1.889 |
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start3_out.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_2
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start3_out.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_2/O
+INFO: [Physopt 32-702] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start3_out. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1/O
+INFO: [Physopt 32-702] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1_n_10. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.134 | TNS=-1.889 |
+Phase 30 Critical Path Optimization | Checksum: 16d950992
+
+Time (s): cpu = 00:03:28 ; elapsed = 00:04:55 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 31 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.134 | TNS=-1.889 |
+INFO: [Physopt 32-702] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/ap_start. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start3_out.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_2
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start3_out.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_2/O
+INFO: [Physopt 32-242] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start3_out. Rewired (signal push) BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/s_axi_control_WDATA[0] to 1 loads. Replicated 0 times.
+INFO: [Physopt 32-735] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start3_out. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.131 | TNS=-1.880 |
+INFO: [Physopt 32-702] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/ram_reg_66[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_rep_i_1__0_n_10.  Re-placed instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_rep_i_1__0/O
+INFO: [Physopt 32-735] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_val_V[1]_rep_i_1__0_n_10. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.125 | TNS=-1.816 |
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1_n_10.  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1_rewire/O
+INFO: [Physopt 32-735] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_ap_start_i_1_n_10. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.125 | TNS=-1.729 |
+INFO: [Physopt 32-702] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/in_V[30]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V[33]_i_1/O
+INFO: [Physopt 32-702] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg0[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/in_V[30]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg0[1].  Did not re-place instance BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V[33]_i_1/O
+INFO: [Physopt 32-702] Processed net BLACKBOX_WRAPPER/BBJ_U96_CNVW1A1_0/inst/BBJ_u96_cnvW1A1_control_s_axi_U/int_in_V_reg0[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.125 | TNS=-1.729 |
+Phase 31 Critical Path Optimization | Checksum: 1cae9f50e
+
+Time (s): cpu = 00:03:38 ; elapsed = 00:05:10 . Memory (MB): peak = 3613.414 ; gain = 0.000
+
+Phase 32 BRAM Enable Optimization
+Phase 32 BRAM Enable Optimization | Checksum: 1cae9f50e
+
+Time (s): cpu = 00:03:40 ; elapsed = 00:05:12 . Memory (MB): peak = 3613.414 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.229 . Memory (MB): peak = 3613.414 ; gain = 0.000
+INFO: [Physopt 32-669] Post Physical Optimization Timing Summary | WNS=-0.125 | TNS=-1.729 | WHS=0.000 | THS=0.000 |
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization          |  WNS Gain (ns)  |  TNS Gain (ns)  |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Fanout                |          0.000  |          0.000  |            1  |              0  |                     1  |           0  |           3  |  00:00:03  |
+|  Placement Based       |          0.000  |          0.073  |            0  |              0  |                     9  |           0  |           4  |  00:01:04  |
+|  MultiInst Placement   |          0.032  |          0.360  |            0  |              0  |                     7  |           0  |           4  |  00:01:40  |
+|  Rewire                |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           3  |  00:00:01  |
+|  Critical Cell         |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           3  |  00:00:01  |
+|  Slr Crossing          |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register          |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           2  |  00:00:00  |
+|  BRAM Register         |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           2  |  00:00:00  |
+|  URAM Register         |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           2  |  00:00:00  |
+|  Shift Register        |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           2  |  00:00:00  |
+|  Critical Pin          |          0.063  |          0.063  |            0  |              0  |                     1  |           0  |           1  |  00:00:06  |
+|  Very High Fanout      |          0.000  |          0.000  |           12  |              0  |                     2  |           0  |           1  |  00:00:23  |
+|  BRAM Enable           |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           1  |  00:00:02  |
+|  Critical Path         |          0.283  |          0.582  |            0  |              0  |                    20  |           0  |           2  |  00:00:55  |
+|  Total                 |          0.378  |          1.078  |           13  |              0  |                    40  |           0  |          31  |  00:04:15  |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Physical Synthesis Task | Checksum: 2b103e724
+
+Time (s): cpu = 00:03:48 ; elapsed = 00:05:22 . Memory (MB): peak = 3613.414 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+517 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:04:30 ; elapsed = 00:06:04 . Memory (MB): peak = 3613.414 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 3613.414 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/child_0_impl_1/super_wrapper_physopt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:22 ; elapsed = 00:00:18 . Memory (MB): peak = 3613.414 ; gain = 0.000
+Command: route_design -directive AlternateCLBRouting
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-270] Using Router directive 'AlternateCLBRouting'.
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: ec808bf4 ConstDB: 0 ShapeSum: a19fc5c2 RouteDB: e31b73c8
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 82e8e2bc
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:49 . Memory (MB): peak = 3710.887 ; gain = 0.000
+Post Restoration Checksum: NetGraph: 3f2820aa NumContArr: bca57def Constraints: d0be9c8d Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 1cc8c3b26
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:57 . Memory (MB): peak = 3710.887 ; gain = 0.000
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 1cc8c3b26
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:58 . Memory (MB): peak = 3710.887 ; gain = 0.000
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 1cc8c3b26
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:58 . Memory (MB): peak = 3710.887 ; gain = 0.000
+
+Phase 2.4 Global Clock Net Routing
+ Number of Nodes with overlaps = 0
+Phase 2.4 Global Clock Net Routing | Checksum: 103cc5cb1
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:01:02 . Memory (MB): peak = 3710.887 ; gain = 0.000
+
+Phase 2.5 Update Timing
+Phase 2.5 Update Timing | Checksum: 1c4866a62
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:38 . Memory (MB): peak = 3710.887 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.100  | TNS=0.000  | WHS=-0.054 | THS=-1.748 |
+
+Phase 2 Router Initialization | Checksum: 19a3d450d
+
+Time (s): cpu = 00:02:13 ; elapsed = 00:02:04 . Memory (MB): peak = 3710.887 ; gain = 0.000
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 2f7a719fa
+
+Time (s): cpu = 00:02:43 ; elapsed = 00:02:35 . Memory (MB): peak = 3714.523 ; gain = 3.637
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 9430
+ Number of Nodes with overlaps = 834
+ Number of Nodes with overlaps = 125
+ Number of Nodes with overlaps = 43
+ Number of Nodes with overlaps = 15
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.094 | TNS=-0.683 | WHS=-0.015 | THS=-0.057 |
+
+Phase 4.1 Global Iteration 0 | Checksum: 2b4e1ad65
+
+Time (s): cpu = 00:05:20 ; elapsed = 00:09:39 . Memory (MB): peak = 3714.523 ; gain = 3.637
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 53
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.102  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 2097f558a
+
+Time (s): cpu = 00:05:38 ; elapsed = 00:10:09 . Memory (MB): peak = 3714.523 ; gain = 3.637
+
+Phase 4.3 Global Iteration 2
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.102  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.3 Global Iteration 2 | Checksum: 178b35ec0
+
+Time (s): cpu = 00:05:48 ; elapsed = 00:10:24 . Memory (MB): peak = 3714.523 ; gain = 3.637
+Phase 4 Rip-up And Reroute | Checksum: 178b35ec0
+
+Time (s): cpu = 00:05:49 ; elapsed = 00:10:25 . Memory (MB): peak = 3714.523 ; gain = 3.637
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 143df0386
+
+Time (s): cpu = 00:06:08 ; elapsed = 00:10:39 . Memory (MB): peak = 3714.523 ; gain = 3.637
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.102  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+Phase 5.1 Delay CleanUp | Checksum: 143df0386
+
+Time (s): cpu = 00:06:09 ; elapsed = 00:10:40 . Memory (MB): peak = 3714.523 ; gain = 3.637
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 143df0386
+
+Time (s): cpu = 00:06:09 ; elapsed = 00:10:41 . Memory (MB): peak = 3714.523 ; gain = 3.637
+Phase 5 Delay and Skew Optimization | Checksum: 143df0386
+
+Time (s): cpu = 00:06:10 ; elapsed = 00:10:41 . Memory (MB): peak = 3714.523 ; gain = 3.637
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 173d1590a
+
+Time (s): cpu = 00:06:24 ; elapsed = 00:10:53 . Memory (MB): peak = 3714.523 ; gain = 3.637
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.102  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1b8f70d12
+
+Time (s): cpu = 00:06:25 ; elapsed = 00:10:54 . Memory (MB): peak = 3714.523 ; gain = 3.637
+Phase 6 Post Hold Fix | Checksum: 1b8f70d12
+
+Time (s): cpu = 00:06:26 ; elapsed = 00:10:54 . Memory (MB): peak = 3714.523 ; gain = 3.637
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 12.7759 %
+  Global Horizontal Routing Utilization  = 11.2349 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 19fbc3888
+
+Time (s): cpu = 00:06:27 ; elapsed = 00:10:55 . Memory (MB): peak = 3714.523 ; gain = 3.637
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 19fbc3888
+
+Time (s): cpu = 00:06:27 ; elapsed = 00:10:56 . Memory (MB): peak = 3714.523 ; gain = 3.637
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 19fbc3888
+
+Time (s): cpu = 00:06:37 ; elapsed = 00:11:12 . Memory (MB): peak = 3714.523 ; gain = 3.637
+
+Phase 10 Route finalize
+Phase 10 Route finalize | Checksum: 19fbc3888
+
+Time (s): cpu = 00:06:38 ; elapsed = 00:11:13 . Memory (MB): peak = 3714.523 ; gain = 3.637
+
+Phase 11 Post Router Timing
+INFO: [Route 35-20] Post Routing Timing Summary | WNS=0.104  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+INFO: [Route 35-61] The design met the timing requirement.
+Phase 11 Post Router Timing | Checksum: 1cade6384
+
+Time (s): cpu = 00:07:17 ; elapsed = 00:11:40 . Memory (MB): peak = 3714.523 ; gain = 3.637
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:07:30 ; elapsed = 00:11:55 . Memory (MB): peak = 3714.523 ; gain = 3.637
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+538 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:08:01 ; elapsed = 00:12:23 . Memory (MB): peak = 3714.523 ; gain = 101.109
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 3714.523 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/child_0_impl_1/super_wrapper_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:22 ; elapsed = 00:00:15 . Memory (MB): peak = 3714.523 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file super_wrapper_drc_routed.rpt -pb super_wrapper_drc_routed.pb -rpx super_wrapper_drc_routed.rpx
+Command: report_drc -file super_wrapper_drc_routed.rpt -pb super_wrapper_drc_routed.pb -rpx super_wrapper_drc_routed.rpx
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/child_0_impl_1/super_wrapper_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:28 ; elapsed = 00:00:18 . Memory (MB): peak = 4254.590 ; gain = 540.066
+INFO: [runtcl-4] Executing : report_methodology -file super_wrapper_methodology_drc_routed.rpt -pb super_wrapper_methodology_drc_routed.pb -rpx super_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file super_wrapper_methodology_drc_routed.rpt -pb super_wrapper_methodology_drc_routed.pb -rpx super_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/child_0_impl_1/super_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:36 ; elapsed = 00:00:24 . Memory (MB): peak = 4254.590 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_power -file super_wrapper_power_routed.rpt -pb super_wrapper_power_summary_routed.pb -rpx super_wrapper_power_routed.rpx
+Command: report_power -file super_wrapper_power_routed.rpt -pb super_wrapper_power_summary_routed.pb -rpx super_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+550 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:41 ; elapsed = 00:00:33 . Memory (MB): peak = 4254.590 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_route_status -file super_wrapper_route_status.rpt -pb super_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file super_wrapper_timing_summary_routed.rpt -pb super_wrapper_timing_summary_routed.pb -rpx super_wrapper_timing_summary_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Temperature grade: I, Delay Type: min_max, Timing Stage: Requireds.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [runtcl-4] Executing : report_incremental_reuse -file super_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-545] No incremental reuse to report, no incremental placement and routing data was found.
+INFO: [runtcl-4] Executing : report_clock_utilization -file super_wrapper_clock_utilization_routed.rpt
+report_clock_utilization: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 4254.590 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file super_wrapper_bus_skew_routed.rpt -pb super_wrapper_bus_skew_routed.pb -rpx super_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Temperature grade: I, Delay Type: min_max, Timing Stage: Requireds.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:01:18 ; elapsed = 00:01:32 . Memory (MB): peak = 4254.590 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/child_0_impl_1/BLACKBOX_WRAPPER_cnvW1A1_wrapper_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:01:21 ; elapsed = 00:01:35 . Memory (MB): peak = 4254.590 ; gain = 0.000
+Command: phys_opt_design -directive AggressiveExplore
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Vivado_Tcl 4-241] Physical synthesis in post route mode ( 100.0% nets are fully routed)
+INFO: [Vivado_Tcl 4-137] Directive used for phys_opt_design is: AggressiveExplore
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+567 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 4254.590 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/child_0_impl_1/super_wrapper_postroute_physopt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:22 ; elapsed = 00:00:15 . Memory (MB): peak = 4254.590 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -warn_on_violation -file super_wrapper_timing_summary_postroute_physopted.rpt -pb super_wrapper_timing_summary_postroute_physopted.pb -rpx super_wrapper_timing_summary_postroute_physopted.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Temperature grade: I, Delay Type: min_max, Timing Stage: Requireds.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file super_wrapper_bus_skew_postroute_physopted.rpt -pb super_wrapper_bus_skew_postroute_physopted.pb -rpx super_wrapper_bus_skew_postroute_physopted.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Temperature grade: I, Delay Type: min_max, Timing Stage: Requireds.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:01:23 ; elapsed = 00:01:35 . Memory (MB): peak = 4254.590 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/child_0_impl_1/BLACKBOX_WRAPPER_cnvW1A1_wrapper_post_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:01:26 ; elapsed = 00:01:38 . Memory (MB): peak = 4254.590 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 26 19:56:01 2019...

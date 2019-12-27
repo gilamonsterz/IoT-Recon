@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Dec 26 10:24:28 2019
+# Process ID: 992
+# Current directory: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/procsys_auto_pc_0_synth_1
+# Command line: vivado.exe -log procsys_auto_pc_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source procsys_auto_pc_0.tcl
+# Log file: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/procsys_auto_pc_0_synth_1/procsys_auto_pc_0.vds
+# Journal file: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/procsys_auto_pc_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source procsys_auto_pc_0.tcl -notrace

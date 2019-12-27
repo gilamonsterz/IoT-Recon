@@ -1,0 +1,22 @@
+Command: pr_verify -full_check -initial D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/impl_1/super_wrapper_routed.dcp -additional D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/child_0_impl_1/super_wrapper_routed.dcp -file child_0_impl_1_pr_verify.log
+Thu Dec 26 20:08:17 2019
+
+INFO: [Constraints 18-1020] PR Verify Summary:
+DCP1: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/impl_1/super_wrapper_routed.dcp
+  Number of reconfigurable modules compared = 1
+  Number of partition pins compared         = 20
+  Number of static tiles compared           = 52683
+  Number of static sites compared           = 745
+  Number of static cells compared           = 7513
+  Number of static routed nodes compared    = 116263
+  Number of static routed pips compared     = 110014
+
+DCP2: D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/child_0_impl_1/super_wrapper_routed.dcp
+  Number of reconfigurable modules compared = 1
+  Number of partition pins compared         = 20
+  Number of static tiles compared           = 52683
+  Number of static sites compared           = 745
+  Number of static cells compared           = 7513
+  Number of static routed nodes compared    = 116263
+  Number of static routed pips compared     = 110014
+INFO: [Vivado 12-3253] PR_VERIFY: check points D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/impl_1/super_wrapper_routed.dcp and D:/Adam/Documents/Vivado_Projects/IoT-Redeaux/Full-recon/Full-recon.runs/child_0_impl_1/super_wrapper_routed.dcp are compatible

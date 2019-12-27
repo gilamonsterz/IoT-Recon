@@ -1,0 +1,59 @@
+Generating base files
+
+1. Rebuild the hw files as per the instructions at https://github.com/Xilinx/BNN-PYNQ and following the suggestion of step 2 below.
+2. Vivado differentiates IPs by name only, and won't notice differences even if you try to instantiate them with different names. Therefore, for each rebuild, find/replace the name of the module with a unique, relevant name.
+	example:
+	find : BlackBoxJam
+	replace : cnvW1A1_BBJ_ultra96
+3. Repeat 1 and 2 for all configurations (cnvW1A1, cnvW1A2, etc...)
+4. Output is found in 2 locations in the bnn_root/bnn/src/network/output folder. Copy the HLS output to you project folder. The synthesized IPs for each accelerator module are in here. Copy the Vivado output to the project folder. This contains the project files used to generate the default bitsreams, and will be the starting point for creating wrapped versions, and then a full partial reconfig version.
+5. Launch Vivado 2018.2 and open one of the projects (recommend cnvw1a2 because its the largest and will be the base configuration for partial reconfig later)
+6. Save As the project in a fresh location in your project folder (so you still have the clean project when something inevitably goes wrong)
+7. Open the IP Catalog in the Flow Navigator and remove the user repository that vivado is pointing to for the accelerator IP. Then add a new repository, add directories, and navigate to the HLS output folder, and select each folder (cnvW1A1-ultra96, etc) to add each accelerator IP as a separate repository
+8. Check your source tree and expand the procsys module and check that the accelerator ip is not locked or showing any other errors after the heriarchy updates.
+9. Add source, add constraint, and add the ultra96.xdc file found in imports. remove the existing constraint file from the project, and press finish. Go to source tree and manually remove the existing contsraint file if it was not properly removed by vivado (there should only be 1 ultra96.xdc file under constraints now).
+10. Do a full design run and generate the bitstream.
+11. copy the bitstream and tcl file from the project runs/impl_1 folder and paste into the ultra96 bnn directory (default is /usr/local/lib/python3.6/dist-packages/bnn/bitstreams. Rename the new files to match the format of the existing bitstreams and delete (or save to a backup folder) the existing bitstreams.
+12. Test the bitstream using one of the bnn jupyter notebooks. 
+	Notes:
+		-when the python code is executed to load a bitstream, it first checks what bitstream is loaded by filename only. therefore, if cnvW1A1 was already loaded and you try to test a new cnvW1A1, the new one will not be loaded. A different bitstream needs to be loaded, or attempted to be loaded, before the new bitstream can be tested.
+		-the python libraries and headers used are located on the ultra96/pynq at /usr/local/lib/python3.6/dist-packages/bnn/
+13. In Partial reconfiguration implementation, timing fails with default design. we will lower the frequency from 300mhz to 250:
+		-open the zynq ultrascale IP, clock configuration, output clocks tab, low power domain clocks, PL Fabric Clocks, and change PL2's Divisor_1 from 5 to 6.
+		-right click procsys.bd in the source tree and reset output products
+		-in the block diagram, one by one select the output ports S00_AXI, M00_AXI, and ap_clk, go to their properties tab, and expand the 'config' menu. find the frequency and replace it with 249999750 for each port. Repeat this with the S00_AXI and M00_AXI interfaces that the ports are wired to (on the modules themselves)
+		-right click procsys.bd and generate output products.
+		-If critical errors about frequency mismatch continue to appear, open the procsys.v file and find/replace any old frequency values with 249999750
+14. Repeat 6-13 for all configurations. Repeating can be skipped, but it can help prevent issues downstream by ensuring all the existing hdl and IPs are working. If it passes testing, archive the project to keep a known-working copy handy.
+
+Reconfiguration
+
+15. Back to the new cnvW1A2 project: add sources, and select the super_wrapper and cnvW1A2_wrapper located in the imports folder
+16. for the super_wrapper.v should already point to cnvW1A2_wrapper, but double check. If wrapping a different configuration, simply open super_wrapper and change the cnvW1A2_wrapper instantiation to cnvW1A1_wrapper, or etc, and add the relevent wrapper to the project.
+17. Add the accelerator IP to the project if it's not there already (using an IP other than cnvW1A2, for example). Go to IP Catalog, find the IP in one of the user repositories added earlier from the hls output, and double click it. okay any popups and the ip should be added. check by expanding the wrapper in sources and confirming the accelerator is shown.
+18. Open the block diagram. We need to make the following interface external and with the following names (exact name of the external port, as displayed in the block diagram, is important). Disconnect the existing wires, right click the interface, and make external. If the wire had multiple connections, reconnect the new external port to the other connections (clock, reset, etc.):
+		module:interface => external_port_name, => "one wire" <=> "multiple wires, be sure to reconnect"
+		ps8_0_axi_periph:M00_AXI => M00_AXI
+		axi_smc:S00_AXI => S00_AXI
+		zynq_ultra_ps_e_0:pl_clk2 <=> ap_clk
+		rst_ps8_0_299M:peripheral_arestn <=> ap_rst_n (block diagram will show ap_rst_n[0:0])
+19. Delete the accelerator module from the block diagram and save the block diagram
+20. right click procsys.bd in the sources tree and generate output products. Ignore the 7 warnings.
+21. Double check procsys_wrapper.v to make sure it updated with the new external interfaces and removal of the accelerator. If not, right click procsys.bd again and create hdl wrapper
+22. Check in source tree under blackbox_wrapper if the accelerator IP is properly loaded. if not, go to IP catalog in the Flow Navigator, find the user repository with cnvW1A2, double click, and okay through the dialogue popups.
+23. Generate bitstream23. copy the created .bit and .tcl files intp the ultra96's bnn bitsream folder and rename to cnvW1A2-ultra96.bit and cnvW1A2-ultra96.tcl and test the configuration.
+24. Save As the project because we're about to enable partial reconfiguration which cannot be undone.
+25. Tools > Enable Partial Reconfiguration
+26. In the sources tree, right click blackboxwrapper and 'create partition definition'. name it 'accelerator' or whatever is helpful.
+27. under the sources tree are a number of tabs, starting with heirarchy, IP Sources, etc. scroll right and select Partition Definitions. select and right click 'accelerator' and Add Reconfigurable Module. Add the wrapper file for cnvW1A1 and fill out the top module name and Reconfigurable module name with "cnvW1A1_wrapper". repeat for each wrapper other than cnvw1a2 (it's already loaded).
+28. Go to the IP_catalog and add the HLS synth outputs if they aren't still there for each accelerator. Add each accelerator module IP by double clicking and okaying through the popups. Each IP should appear in the sources tree. You can generate the IPs now or skip for later. 
+29. Right click each IP in the source tree and move to reconfigurable module, selecting the correct wrapper for each one. When finished, the source tree hierarchy should contain only the supper_wrapper.v, whih should contain only the blackbox partition (with a yellow diamond icon) and the procsys_wrapper (and its sub-contents). The Partitions Definitions tab should contain 'Accelerator' and within it all the different accelerator configuration wrappers, and each wrapper should have an IP core inside it.
+30. In the Flow Navigator, select partial reconfiguration wizard. 
+31. Edit reconfigurable modules: Make sure all configuratins are listed and under the same partition definition.
+32. Edit configurations: Remove any configurations listed until the option to automatically create configurations appears, and click it. Config_1 should be the largest configuration to make floorplanning easier later on. In our case, cnvw1a2 is largest
+33. Edit configuration runs: Again remove any configurations until an automatic option appears and select it.
+34. Accept the wizard changes and synthesize the project.
+35. After synthesis, open the synthesized design.
+36. Under the Netlist tab, right click the blackbox wrapper entry and go to floorplanning>draw pblock. In the device view window, draw out the region you want to be reconfigurable. This block is resizable and new rectangles can be added onto it by selecting and right clicking an existing drawn region.
+37. Save the synthesized design, the pblock settings will be written to the constraint file.
+38. Run implementation. 
