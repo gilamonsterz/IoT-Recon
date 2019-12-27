@@ -12,7 +12,7 @@ bitstreams:
 	
 	generated_recon: Full bitstream using cnvW1A2 configuration (it was the largest), and partial bitstreams for each configuration
 
-IoT-Recon.xlsx: WiP, will continue to populate. Most of the information we need is available, but I've been focused on getting all the HDL and python working rather than document data. Main thing that unavailable right now is the configuration times.
+IoT-Recon.xlsx: Summaries of vivado reports and python implementations
 
 Archived Vivado Projects: Use these if planning on doing any sort of design runs/ non read-only tasks. in theory archived projects should prevent any issues with directory structures being changed from being moved around. Also bundels in pre-synthesized IPs and custom run strategies used. Will probably  still have issues if used for anything other than read-only operations, generating reports should be okay...
 
